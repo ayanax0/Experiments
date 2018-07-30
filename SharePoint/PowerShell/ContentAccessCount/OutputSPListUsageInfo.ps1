@@ -1,21 +1,21 @@
-#-------------------------------------------------
-#ŠJnˆ—
+ï»¿#-------------------------------------------------
+#é–‹å§‹å‡¦ç†
 #-------------------------------------------------
 
-#ƒAƒEƒgƒvƒbƒg‚Éo—Íiƒ^ƒu‹æØ‚èj
+#ã‚¢ã‚¦ãƒˆãƒ—ãƒƒãƒˆã«å‡ºåŠ›ï¼ˆã‚¿ãƒ–åŒºåˆ‡ã‚Šï¼‰
 $OutputFileHeader ="{0}`t{1}`t{2}`t{3}`t{4}`t{5}`t{6}`t{7}`t{8}" -f `
     "URL",`
-    "ƒ^ƒCƒgƒ‹",`
-    "ì¬“ú",`
-    "ÅIXV“ú",`
-    "ƒy[ƒWƒrƒ…[”i‡Œvj",`
-    "ƒy[ƒWƒrƒ…[i•½‹Ïj",`
-    "ƒ†ƒj[ƒNƒrƒWƒ^[”i‡Œvj",`
-    "ƒ†ƒj[ƒNƒrƒWƒ^[”i•½‹Ïj",`
-    "—e—Ê(GB)"
+    "ã‚¿ã‚¤ãƒˆãƒ«",`
+    "ä½œæˆæ—¥",`
+    "æœ€çµ‚æ›´æ–°æ—¥",`
+    "ãƒšãƒ¼ã‚¸ãƒ“ãƒ¥ãƒ¼æ•°ï¼ˆåˆè¨ˆï¼‰",`
+    "ãƒšãƒ¼ã‚¸ãƒ“ãƒ¥ãƒ¼ï¼ˆå¹³å‡ï¼‰",`
+    "ãƒ¦ãƒ‹ãƒ¼ã‚¯ãƒ“ã‚¸ã‚¿ãƒ¼æ•°ï¼ˆåˆè¨ˆï¼‰",`
+    "ãƒ¦ãƒ‹ãƒ¼ã‚¯ãƒ“ã‚¸ã‚¿ãƒ¼æ•°ï¼ˆå¹³å‡ï¼‰",`
+    "å®¹é‡(GB)"
 
 #-------------------------------------------------
-#ƒtƒ@ƒ“ƒNƒVƒ‡ƒ“’è‹`
+#ãƒ•ã‚¡ãƒ³ã‚¯ã‚·ãƒ§ãƒ³å®šç¾©
 #-------------------------------------------------
 function OutputUsageInfo($list)
 {
@@ -24,14 +24,14 @@ function OutputUsageInfo($list)
     return ""
 
     #####################
-    #ƒy[ƒWƒrƒ…[”‚ÌZo
+    #ãƒšãƒ¼ã‚¸ãƒ“ãƒ¥ãƒ¼æ•°ã®ç®—å‡º
     #####################
-    #ƒy[ƒWƒrƒ…[”i“ú’PˆÊj‚ğw’è‚µ‚½ŠúŠÔ•ª’Šo‚·‚é
+    #ãƒšãƒ¼ã‚¸ãƒ“ãƒ¥ãƒ¼æ•°ï¼ˆæ—¥å˜ä½ï¼‰ã‚’æŒ‡å®šã—ãŸæœŸé–“åˆ†æŠ½å‡ºã™ã‚‹
     $AnalyticsReportFunction = New-Object Microsoft.Office.Server.WebAnalytics.Reporting.AnalyticsReportFunction
     [Threading.Thread]::CurrentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
     $PageViewTrend = $AnalyticsReportFunction.GetWebAnalyticsReportData($list.DefaultViewUrl, "2", "PageViewTrend", [DateTime]::Today.AddDays(-$period),[DateTime]::Today)
 
-    #w’è‚µ‚½ŠúŠÔ‚Ìƒy[ƒWƒrƒ…[i“ú’PˆÊj‚Ì•½‹Ï’l‚ğZo‚·‚é
+    #æŒ‡å®šã—ãŸæœŸé–“ã®ãƒšãƒ¼ã‚¸ãƒ“ãƒ¥ãƒ¼ï¼ˆæ—¥å˜ä½ï¼‰ã®å¹³å‡å€¤ã‚’ç®—å‡ºã™ã‚‹
     $sumOfPageViewTrendPerDay = 0
     $averageOfPageViewTrendPerDay = 0
     for($i = 0; $i -lt $period; $i++)
@@ -42,14 +42,14 @@ function OutputUsageInfo($list)
     $averageOfPageViewTrendPerDay = ($sumOfPageViewTrendPerDay/$period).ToString("0")
 
     #####################
-    #ƒ†ƒj[ƒNƒrƒWƒ^[”‚ÌZo
+    #ãƒ¦ãƒ‹ãƒ¼ã‚¯ãƒ“ã‚¸ã‚¿ãƒ¼æ•°ã®ç®—å‡º
     #####################
-    #ƒ†ƒj[ƒNƒrƒWƒ^[‚Ì”i“ú’PˆÊj‚ğw’è‚µ‚½ŠúŠÔ•ª’Šo‚·‚é
+    #ãƒ¦ãƒ‹ãƒ¼ã‚¯ãƒ“ã‚¸ã‚¿ãƒ¼ã®æ•°ï¼ˆæ—¥å˜ä½ï¼‰ã‚’æŒ‡å®šã—ãŸæœŸé–“åˆ†æŠ½å‡ºã™ã‚‹
     $AnalyticsReportFunction = New-Object Microsoft.Office.Server.WebAnalytics.Reporting.AnalyticsReportFunction
     [Threading.Thread]::CurrentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
     $UniqueVisitorsTrend = $AnalyticsReportFunction.GetWebAnalyticsReportData($list.DefaultViewUrl,"2","UniqueVisitorsTrend",[DateTime]::Today.AddDays(-$period),[DateTime]::Today)
 
-    #–ß‚è’l‚ğ¶¬iƒ^ƒu‹æØ‚èj
+    #æˆ»ã‚Šå€¤ã‚’ç”Ÿæˆï¼ˆã‚¿ãƒ–åŒºåˆ‡ã‚Šï¼‰
     $returnValue = "{0}`t{1}`t{2}`t{3}`t{4}`t{5}`t{6}`t{7}`t{8}" -f `
         $site.RootWeb.Url,`
         $site.RootWeb.Title,`

@@ -1,46 +1,46 @@
-#-------------------------------------------------
-#ŠJnˆ—
+ï»¿#-------------------------------------------------
+#é–‹å§‹å‡¦ç†
 #-------------------------------------------------
 
-#ƒXƒiƒbƒvƒCƒ“æ“¾
-Write-Host "€”õ’†"
+#ã‚¹ãƒŠãƒƒãƒ—ã‚¤ãƒ³å–å¾—
+Write-Host "æº–å‚™ä¸­"
 $snapInInfo = Get-PSSnapin | Where-Object{$_.Name -eq "Microsoft.SharePoint.PowerShell"}
 if($snapInInfo -eq $null) {
 	Add-PSSnapin Microsoft.SharePoint.PowerShell
 }
-Write-Host "€”õŠ®—¹"
+Write-Host "æº–å‚™å®Œäº†"
 
-#QÆ’Ç‰Á
+#å‚ç…§è¿½åŠ 
 [System.Reflection.Assembly]::Load("Microsoft.Office.Server.WebAnalytics, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c") | Out-Null; 
 [System.Reflection.Assembly]::Load("Microsoft.Office.Server.WebAnalytics.UI, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c") | Out-Null; 
 
-#ƒJƒŒƒ“ƒgƒfƒBƒŒƒNƒgƒŠ‚ğƒXƒNƒŠƒvƒg‚Ì•Û‘¶êŠ‚Éİ’è‚·‚é
+#ã‚«ãƒ¬ãƒ³ãƒˆãƒ‡ã‚£ãƒ¬ã‚¯ãƒˆãƒªã‚’ã‚¹ã‚¯ãƒªãƒ—ãƒˆã®ä¿å­˜å ´æ‰€ã«è¨­å®šã™ã‚‹
 Set-location (Split-Path $MyInvocation.MyCommand.Path -parent)
 
 #-------------------------------------------------
-#•Ï”‚ÌéŒ¾
+#å¤‰æ•°ã®å®£è¨€
 #-------------------------------------------------
 
 [String]$nowStr = Get-Date -format "yyyyMMddHHmmss"
 
-#ƒAƒEƒgƒvƒbƒgƒtƒ@ƒCƒ‹‚Ì–¼‘O(Šg’£q‚ğŠÜ‚Ş)
+#ã‚¢ã‚¦ãƒˆãƒ—ãƒƒãƒˆãƒ•ã‚¡ã‚¤ãƒ«ã®åå‰(æ‹¡å¼µå­ã‚’å«ã‚€)
 $OutputFileName = "OutputSPWebUsageInfo_$nowStr.csv"
 
-#‘ÎÛ‚ÌƒTƒCƒgƒRƒŒƒNƒVƒ‡ƒ“URL
+#å¯¾è±¡ã®ã‚µã‚¤ãƒˆã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³URL
 $siteCollectionUrl = $args[0]
 
-#ƒAƒNƒZƒXó‹µ‚ğæ“¾‚·‚éŠúŠÔi=‰ß‹‰½“ú•ªæ“¾‚·‚é‚©j
+#ã‚¢ã‚¯ã‚»ã‚¹çŠ¶æ³ã‚’å–å¾—ã™ã‚‹æœŸé–“ï¼ˆ=éå»ä½•æ—¥åˆ†å–å¾—ã™ã‚‹ã‹ï¼‰
 $period = 60
 
 #-------------------------------------------------
-#ƒtƒ@ƒ“ƒNƒVƒ‡ƒ“’è‹`
+#ãƒ•ã‚¡ãƒ³ã‚¯ã‚·ãƒ§ãƒ³å®šç¾©
 #-------------------------------------------------
 
-#Web Analytics ƒŒƒ|[ƒg‚ÌuƒAƒNƒZƒX‚Ì‘½‚¢ƒy[ƒWv‚©‚çASharePointƒŠƒXƒg‚ÌƒfƒtƒHƒ‹ƒgƒrƒ…[‚ÌURL‚Ìƒy[ƒWƒrƒ…[‚ğæ“¾‚µ‚Äo—Í‚·‚éB
+#Web Analytics ãƒ¬ãƒãƒ¼ãƒˆã®ã€Œã‚¢ã‚¯ã‚»ã‚¹ã®å¤šã„ãƒšãƒ¼ã‚¸ã€ã‹ã‚‰ã€SharePointãƒªã‚¹ãƒˆã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆãƒ“ãƒ¥ãƒ¼ã®URLã®ãƒšãƒ¼ã‚¸ãƒ“ãƒ¥ãƒ¼ã‚’å–å¾—ã—ã¦å‡ºåŠ›ã™ã‚‹ã€‚
 function OutputSPWebUsageInfo($web)
 {
     #####################
-    #ƒAƒNƒZƒX‚Ì‘½‚¢ƒy[ƒW‚ÌŒ”æ“¾
+    #ã‚¢ã‚¯ã‚»ã‚¹ã®å¤šã„ãƒšãƒ¼ã‚¸ã®ä»¶æ•°å–å¾—
     #####################
     $AnalyticsReportFunction = New-Object Microsoft.Office.Server.WebAnalytics.Reporting.AnalyticsReportFunction
     [Threading.Thread]::CurrentPrincipal = New-Object Security.Principal.WindowsPrincipal([Security.Principal.WindowsIdentity]::GetCurrent())
@@ -50,15 +50,15 @@ function OutputSPWebUsageInfo($web)
     {
         'True'
         {
-            $webType = "ƒgƒbƒvƒTƒCƒg"
+            $webType = "ãƒˆãƒƒãƒ—ã‚µã‚¤ãƒˆ"
         }
         'False'
         {
-            $webType = "ƒTƒuƒTƒCƒg"
+            $webType = "ã‚µãƒ–ã‚µã‚¤ãƒˆ"
         }
     }
 
-    #SPWeb“à‚ÌƒŠƒXƒg‚ÌƒfƒtƒHƒ‹ƒgƒrƒ…[URL‚ğæ“¾
+    #SPWebå†…ã®ãƒªã‚¹ãƒˆã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆãƒ“ãƒ¥ãƒ¼URLã‚’å–å¾—
     $listUrlIndex = @{}
     foreach ($list in $web.Lists)
     {
@@ -66,13 +66,13 @@ function OutputSPWebUsageInfo($web)
         $listUrlIndex[$listDefaultViewUrl] = $list
     }
 
-    #æ“¾‚³‚ê‚½‘S‚Ä‚ÌuƒAƒNƒZƒX‚Ì‘½‚¢ƒy[ƒWv‚ÌƒŒƒ|[ƒg‚ğˆ—‘ÎÛ‚Æ‚·‚é
+    #å–å¾—ã•ã‚ŒãŸå…¨ã¦ã®ã€Œã‚¢ã‚¯ã‚»ã‚¹ã®å¤šã„ãƒšãƒ¼ã‚¸ã€ã®ãƒ¬ãƒãƒ¼ãƒˆã‚’å‡¦ç†å¯¾è±¡ã¨ã™ã‚‹
     for ($i = 0; $i -lt $TopPageForPageReport.Length; $i++)
     {
-        #URL‚ªİ’è‚³‚ê‚Ä‚¢‚é‚à‚Ì‚Ì‚İ‚ğo—Í‘ÎÛ‚Æ‚·‚é
+        #URLãŒè¨­å®šã•ã‚Œã¦ã„ã‚‹ã‚‚ã®ã®ã¿ã‚’å‡ºåŠ›å¯¾è±¡ã¨ã™ã‚‹
         if ($TopPageForPageReport[$i, 0])
         {
-            #SPWeb“à‚ÌƒŠƒXƒg‚ÌƒfƒtƒHƒ‹ƒgƒrƒ…[URL‚Ì‚à‚Ì‚Ì‚İ‚ğo—Í‘ÎÛ‚Æ‚·‚é
+            #SPWebå†…ã®ãƒªã‚¹ãƒˆã®ãƒ‡ãƒ•ã‚©ãƒ«ãƒˆãƒ“ãƒ¥ãƒ¼URLã®ã‚‚ã®ã®ã¿ã‚’å‡ºåŠ›å¯¾è±¡ã¨ã™ã‚‹
             if ($listUrlIndex[$TopPageForPageReport[$i, 0]])
             {
                 "{0}`t{1}`t{2}`t{3}`t{4}`t{5}`t{6}" -f `
@@ -89,25 +89,25 @@ function OutputSPWebUsageInfo($web)
 }
 
 #-------------------------------------------------
-#åˆ—
+#ä¸»å‡¦ç†
 #-------------------------------------------------
 
-#—˜—pó‹µ‚Ìæ“¾‘ÎÛŠúŠÔ‚ğƒAƒEƒgƒvƒbƒg‚Éo—Í
-"ƒAƒNƒZƒX‚Ì‘½‚¢ƒy[ƒW‚Ìæ“¾ŠúŠÔF{0} ‚©‚ç {1}" -f `
+#åˆ©ç”¨çŠ¶æ³ã®å–å¾—å¯¾è±¡æœŸé–“ã‚’ã‚¢ã‚¦ãƒˆãƒ—ãƒƒãƒˆã«å‡ºåŠ›
+"ã‚¢ã‚¯ã‚»ã‚¹ã®å¤šã„ãƒšãƒ¼ã‚¸ã®å–å¾—æœŸé–“ï¼š{0} ã‹ã‚‰ {1}" -f `
     [DateTime]::Today.AddDays(-$period).ToLocalTime().ToString("yyyy/MM/dd"),`
     [DateTime]::Today.ToLocalTime().ToString("yyyy/MM/dd")  > $OutputFileName
 
-    #ƒAƒEƒgƒvƒbƒg‚Éo—Íiƒ^ƒu‹æØ‚èj
+    #ã‚¢ã‚¦ãƒˆãƒ—ãƒƒãƒˆã«å‡ºåŠ›ï¼ˆã‚¿ãƒ–åŒºåˆ‡ã‚Šï¼‰
 "{0}`t{1}`t{2}`t{3}`t{4}`t{5}`t{6}" -f `
-    "ƒgƒbƒvorƒTƒu",`
-    "ƒTƒCƒgƒRƒŒƒNƒVƒ‡ƒ“URL",`
-    "ƒTƒCƒgURL",`
-    "ƒ^ƒCƒgƒ‹",`
-    "ƒy[ƒWURL",`
-    "ƒy[ƒWƒrƒ…[‚Ì”",`
-    "‘S‘Ì‚É‘Î‚·‚éŠ„‡" >> $OutputFileName
+    "ãƒˆãƒƒãƒ—orã‚µãƒ–",`
+    "ã‚µã‚¤ãƒˆã‚³ãƒ¬ã‚¯ã‚·ãƒ§ãƒ³URL",`
+    "ã‚µã‚¤ãƒˆURL",`
+    "ã‚¿ã‚¤ãƒˆãƒ«",`
+    "ãƒšãƒ¼ã‚¸URL",`
+    "ãƒšãƒ¼ã‚¸ãƒ“ãƒ¥ãƒ¼ã®æ•°",`
+    "å…¨ä½“ã«å¯¾ã™ã‚‹å‰²åˆ" >> $OutputFileName
 
-#WebƒAƒvƒŠƒP[ƒVƒ‡ƒ“‚ğæ“¾
+#Webã‚¢ãƒ—ãƒªã‚±ãƒ¼ã‚·ãƒ§ãƒ³ã‚’å–å¾—
 $site = New-Object Microsoft.SharePoint.SPSite($siteCollectionUrl)
 
 foreach($web in $site.AllWebs)
@@ -115,4 +115,4 @@ foreach($web in $site.AllWebs)
     OutputSPWebUsageInfo $web
 }
 
-Write-Host "Š®—¹"
+Write-Host "å®Œäº†"

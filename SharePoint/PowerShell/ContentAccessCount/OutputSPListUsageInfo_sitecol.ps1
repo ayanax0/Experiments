@@ -1,62 +1,62 @@
-#-------------------------------------------------
-#�J�n����
+﻿#-------------------------------------------------
+#開始処理
 #-------------------------------------------------
 
-#�X�i�b�v�C���擾
-Write-Host "������"
+#スナップイン取得
+Write-Host "準備中"
 $snapInInfo = Get-PSSnapin | Where-Object{$_.Name -eq "Microsoft.SharePoint.PowerShell"}
 if($snapInInfo -eq $null) {
 	Add-PSSnapin Microsoft.SharePoint.PowerShell
 }
-Write-Host "��������"
+Write-Host "準備完了"
 
-#�Q�ƒǉ�
+#参照追加
 [System.Reflection.Assembly]::Load("Microsoft.Office.Server.WebAnalytics, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c") | Out-Null; 
 [System.Reflection.Assembly]::Load("Microsoft.Office.Server.WebAnalytics.UI, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c") | Out-Null; 
 
-#�J�����g�f�B���N�g�����X�N���v�g�̕ۑ��ꏊ�ɐݒ肷��
+#カレントディレクトリをスクリプトの保存場所に設定する
 Push-Location (Split-Path $MyInvocation.MyCommand.Path -parent)
 
-#�֐��X�N���v�g�����[�h
+#関数スクリプトをロード
 .\OutputSPListUsageInfo.ps1
 
 #-------------------------------------------------
-#�ϐ��̐錾
+#変数の宣言
 #-------------------------------------------------
 
-#�A�E�g�v�b�g�t�@�C���̖��O(�g���q���܂�)
+#アウトプットファイルの名前(拡張子を含む)
 $OutputFileName = "OutputSPSiteUsgeInfo.csv"
 
-#�Ώۂ̃T�C�g�R���N�V����
+#対象のサイトコレクション
 #$SiteCollectionUrl = "http://sd-portal.km.local/"
 $SiteCollectionUrl = "http://sps2010/"
 
-#�A�N�Z�X�󋵂��擾������ԁi=�ߋ��������擾���邩�j
+#アクセス状況を取得する期間（=過去何日分取得するか）
 $period = 30
 
 #-------------------------------------------------
-#�又��
+#主処理
 #-------------------------------------------------
 
-#�T�C�g�R���N�V�������擾
+#サイトコレクションを取得
 $site = New-Object Microsoft.SharePoint.SPSite($SiteCollectionUrl)
 
-#�w�b�_�[���o��
+#ヘッダーを出力
 $OutputFileHeader > $OutputFileName
 
-Write-Host "Webs���[�v�ɓ���[$site]"
+Write-Host "Websループに入る[$site]"
 $webs = $site.AllWebs
 foreach ($web in $webs)
 {
-    Write-Host "Lists���[�v�ɓ���[$web]"
+    Write-Host "Listsループに入る[$web]"
     foreach ($list in $web.Lists)
     {
-        Write-Host "�O���ďo��[$list.DefaultViewUrl]"
+        Write-Host "外部呼出し[$list.DefaultViewUrl]"
         OutputUsageInfo $list >> $OutputFileName
     }
 }
 
-#�J�����g�f�B���N�g�������Ƃ̏ꏊ�ɐݒ肷��
+#カレントディレクトリをもとの場所に設定する
 Pop-Location
 
-Write-Host "����"
+Write-Host "完了"

@@ -1,2 +1,2 @@
-Rem ‘SƒV[ƒg—ñ‹“
+ï»¿Rem å…¨ã‚·ãƒ¼ãƒˆåˆ—æŒ™
 For Each s In ThisWorkbook.Sheets: Debug.Print s.name: next s
