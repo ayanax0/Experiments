@@ -1,9 +1,9 @@
-﻿"use strict"
+﻿"use strict";
 
 // メソッドのオーバーライドを行う即時関数
 (function () {
 	var overrides = {
-		Templates = {
+		'Templates': {
 			'Header': 'ヘッダー部HTML',
 			'Footer': 'フッター部HTML',
 			'Item': function(context) {
