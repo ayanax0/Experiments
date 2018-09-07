@@ -15,7 +15,7 @@ $clientId = "08103819-563b-4bf3-a558-480690d0133b"
 $redirectUri = "urn:ietf:wg:oauth:2.0:oob"
 
 # 情報取得するユーザー
-$userId = "akiray@interestec.onmicrosoft.com"
+$userId = "fujioy@interestec.onmicrosoft.com"
 
 # ユーザー情報（部署情報）取得REST Uri
 $restUri = "$resourceUri/v1.0/users/$userId/department"
