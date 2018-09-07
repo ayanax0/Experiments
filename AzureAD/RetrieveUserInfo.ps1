@@ -1,4 +1,4 @@
-# モジュールのロード
+﻿# モジュールのロード
 [System.Reflection.Assembly]::LoadFrom("C:\Program Files\WindowsPowerShell\Modules\AzureAD\2.0.1.16\Microsoft.IdentityModel.Clients.ActiveDirectory.dll")
 [System.Reflection.Assembly]::LoadFrom("C:\Program Files\WindowsPowerShell\Modules\AzureAD\2.0.1.16\Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll")
 
