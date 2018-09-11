@@ -3,14 +3,15 @@
 [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.Runtime")
 
 # アカウント設定
-$connectionUser = "<実行ユーザーのメールアドレス>" 
-$connectionPassword = ConvertTo-SecureString "<実行ユーザーのパスワード>" -AsPlainText -Force
+$connectionUser = "akiray@interestec.onmicrosoft.com" 
+#$connectionPassword = ConvertTo-SecureString "<実行ユーザーのパスワード>" -AsPlainText -Force
+$connectionPassword = Read-Host -Prompt "Enter Password." -AsSecureString
 
 # 接続Credential生成
 $credential = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($connectionUser, $connectionPassword)
 
 # 接続先サイトのURL
-$siteUrl = "https://smflc.sharepoint.com/teams/TSA"
+$siteUrl = "https://interestec.sharepoint.com/"
 
 # サイトURLからContext生成
 $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
