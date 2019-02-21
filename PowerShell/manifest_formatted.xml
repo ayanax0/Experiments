@@ -1,0 +1,1274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ListTemplate WebUrl="http://new-moss-sv/sites/Seminar">
+    <Details>
+        <TemplateDescription></TemplateDescription>
+        <TemplateTitle>アンケートテンプレート</TemplateTitle>
+        <ProductVersion>4</ProductVersion>
+        <Language>1041</Language>
+        <TemplateID>1</TemplateID>
+        <Configuration>1</Configuration>
+        <FeatureId>{00BFEA71-EB8A-40B1-80C7-506BE7590102}</FeatureId>
+        <TemplateType>102</TemplateType>
+        <BaseType>4</BaseType>
+    </Details>
+    <Files>
+        <File Name="AllItems.aspx" Src="00000000.000">
+            <MetaInfo>
+                <MetaKey Name="vti_contentversionisdirty" Value="BW|false" />
+                <MetaKey Name="vti_rtag" Value="SW|rt:7D855990-1D8D-4CBB-BB77-9D35DB2912AE@00000000001" />
+                <MetaKey Name="vti_etag" Value="SW|&quot;{7D855990-1D8D-4CBB-BB77-9D35DB2912AE},1&quot;" />
+                <MetaKey Name="vti_hasdefaultcontent" Value="BX|true" />
+                <MetaKey Name="vti_parserversion" Value="SR|14.0.0.6029" />
+                <MetaKey Name="vti_timecreated" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_contenttag" Value="SW|{7D855990-1D8D-4CBB-BB77-9D35DB2912AE},1,0" />
+                <MetaKey Name="vti_folderitemcount" Value="IR|0" />
+                <MetaKey Name="vti_charset" Value="SR|utf-8" />
+                <MetaKey Name="vti_timelastmodified" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_candeleteversion" Value="BR|true" />
+                <MetaKey Name="vti_cachedzones" Value="VR|Main" />
+                <MetaKey Name="vti_author" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_setuppath" Value="SR|pages\viewpage.aspx" />
+                <MetaKey Name="vti_replid" Value="SR|rid:{7D855990-1D8D-4CBB-BB77-9D35DB2912AE}" />
+                <MetaKey Name="vti_sourcecontrolversion" Value="SR|V1.0" />
+                <MetaKey Name="vti_sourcecontrolcookie" Value="SR|fp_internal" />
+                <MetaKey Name="vti_cachedneedsrewrite" Value="BR|false" />
+                <MetaKey Name="vti_themeaggregate" Value="SR|default" />
+                <MetaKey Name="vti_setuppathversion" Value="IR|4" />
+                <MetaKey Name="vti_level" Value="IR|1" />
+                <MetaKey Name="vti_filesize" Value="IR|3370" />
+                <MetaKey Name="vti_cachedhastheme" Value="BR|false" />
+                <MetaKey Name="vti_modifiedby" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_docstoretype" Value="IR|0" />
+                <MetaKey Name="vti_docstoreversion" Value="IR|1" />
+                <MetaKey Name="vti_metainfoversion" Value="IW|1" />
+                <MetaKey Name="vti_foldersubfolderitemcount" Value="IR|0" />
+            </MetaInfo>
+        </File>
+        <File Name="DispForm.aspx" Src="10000000.000">
+            <MetaInfo>
+                <MetaKey Name="vti_contentversionisdirty" Value="BW|false" />
+                <MetaKey Name="vti_rtag" Value="SW|rt:2CD494FF-008A-47BE-AAF6-E662D4074D1E@00000000001" />
+                <MetaKey Name="vti_etag" Value="SW|&quot;{2CD494FF-008A-47BE-AAF6-E662D4074D1E},1&quot;" />
+                <MetaKey Name="vti_hasdefaultcontent" Value="BX|true" />
+                <MetaKey Name="vti_parserversion" Value="SR|14.0.0.6029" />
+                <MetaKey Name="vti_timecreated" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_contenttag" Value="SW|{2CD494FF-008A-47BE-AAF6-E662D4074D1E},1,0" />
+                <MetaKey Name="vti_folderitemcount" Value="IR|0" />
+                <MetaKey Name="vti_charset" Value="SR|utf-8" />
+                <MetaKey Name="vti_timelastmodified" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_candeleteversion" Value="BR|true" />
+                <MetaKey Name="vti_cachedzones" Value="VR|Main" />
+                <MetaKey Name="vti_author" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_setuppath" Value="SR|pages\form.aspx" />
+                <MetaKey Name="vti_replid" Value="SR|rid:{2CD494FF-008A-47BE-AAF6-E662D4074D1E}" />
+                <MetaKey Name="vti_sourcecontrolversion" Value="SR|V1.0" />
+                <MetaKey Name="vti_sourcecontrolcookie" Value="SR|fp_internal" />
+                <MetaKey Name="vti_cachedneedsrewrite" Value="BR|false" />
+                <MetaKey Name="vti_themeaggregate" Value="SR|default" />
+                <MetaKey Name="vti_setuppathversion" Value="IR|4" />
+                <MetaKey Name="vti_level" Value="IR|1" />
+                <MetaKey Name="vti_filesize" Value="IR|13743" />
+                <MetaKey Name="vti_cachedhastheme" Value="BR|false" />
+                <MetaKey Name="vti_modifiedby" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_docstoretype" Value="IR|0" />
+                <MetaKey Name="vti_docstoreversion" Value="IR|1" />
+                <MetaKey Name="vti_metainfoversion" Value="IW|1" />
+                <MetaKey Name="vti_foldersubfolderitemcount" Value="IR|0" />
+            </MetaInfo>
+        </File>
+        <File Name="EditForm.aspx" Src="20000000.000">
+            <MetaInfo>
+                <MetaKey Name="vti_contentversionisdirty" Value="BW|false" />
+                <MetaKey Name="vti_rtag" Value="SW|rt:88F162DA-9D0C-47F4-AA3E-48D813658AFD@00000000001" />
+                <MetaKey Name="vti_etag" Value="SW|&quot;{88F162DA-9D0C-47F4-AA3E-48D813658AFD},1&quot;" />
+                <MetaKey Name="vti_hasdefaultcontent" Value="BX|true" />
+                <MetaKey Name="vti_parserversion" Value="SR|14.0.0.6029" />
+                <MetaKey Name="vti_timecreated" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_contenttag" Value="SW|{88F162DA-9D0C-47F4-AA3E-48D813658AFD},1,0" />
+                <MetaKey Name="vti_folderitemcount" Value="IR|0" />
+                <MetaKey Name="vti_charset" Value="SR|utf-8" />
+                <MetaKey Name="vti_timelastmodified" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_candeleteversion" Value="BR|true" />
+                <MetaKey Name="vti_cachedzones" Value="VR|Main" />
+                <MetaKey Name="vti_author" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_setuppath" Value="SR|pages\form.aspx" />
+                <MetaKey Name="vti_replid" Value="SR|rid:{88F162DA-9D0C-47F4-AA3E-48D813658AFD}" />
+                <MetaKey Name="vti_sourcecontrolversion" Value="SR|V1.0" />
+                <MetaKey Name="vti_sourcecontrolcookie" Value="SR|fp_internal" />
+                <MetaKey Name="vti_cachedneedsrewrite" Value="BR|false" />
+                <MetaKey Name="vti_themeaggregate" Value="SR|default" />
+                <MetaKey Name="vti_setuppathversion" Value="IR|4" />
+                <MetaKey Name="vti_level" Value="IR|1" />
+                <MetaKey Name="vti_filesize" Value="IR|13743" />
+                <MetaKey Name="vti_cachedhastheme" Value="BR|false" />
+                <MetaKey Name="vti_modifiedby" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_docstoretype" Value="IR|0" />
+                <MetaKey Name="vti_docstoreversion" Value="IR|1" />
+                <MetaKey Name="vti_metainfoversion" Value="IW|1" />
+                <MetaKey Name="vti_foldersubfolderitemcount" Value="IR|0" />
+            </MetaInfo>
+        </File>
+        <File Name="NewForm.aspx" Src="30000000.000">
+            <MetaInfo>
+                <MetaKey Name="vti_contentversionisdirty" Value="BW|false" />
+                <MetaKey Name="vti_rtag" Value="SW|rt:5BA2B609-3338-4031-84D6-B1775516303D@00000000001" />
+                <MetaKey Name="vti_etag" Value="SW|&quot;{5BA2B609-3338-4031-84D6-B1775516303D},1&quot;" />
+                <MetaKey Name="vti_hasdefaultcontent" Value="BX|true" />
+                <MetaKey Name="vti_parserversion" Value="SR|14.0.0.6029" />
+                <MetaKey Name="vti_timecreated" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_contenttag" Value="SW|{5BA2B609-3338-4031-84D6-B1775516303D},1,0" />
+                <MetaKey Name="vti_folderitemcount" Value="IR|0" />
+                <MetaKey Name="vti_charset" Value="SR|utf-8" />
+                <MetaKey Name="vti_timelastmodified" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_candeleteversion" Value="BR|true" />
+                <MetaKey Name="vti_cachedzones" Value="VR|Main" />
+                <MetaKey Name="vti_author" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_setuppath" Value="SR|pages\form.aspx" />
+                <MetaKey Name="vti_replid" Value="SR|rid:{5BA2B609-3338-4031-84D6-B1775516303D}" />
+                <MetaKey Name="vti_sourcecontrolversion" Value="SR|V1.0" />
+                <MetaKey Name="vti_sourcecontrolcookie" Value="SR|fp_internal" />
+                <MetaKey Name="vti_cachedneedsrewrite" Value="BR|false" />
+                <MetaKey Name="vti_themeaggregate" Value="SR|default" />
+                <MetaKey Name="vti_setuppathversion" Value="IR|4" />
+                <MetaKey Name="vti_level" Value="IR|1" />
+                <MetaKey Name="vti_filesize" Value="IR|13743" />
+                <MetaKey Name="vti_cachedhastheme" Value="BR|false" />
+                <MetaKey Name="vti_modifiedby" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_docstoretype" Value="IR|0" />
+                <MetaKey Name="vti_docstoreversion" Value="IR|1" />
+                <MetaKey Name="vti_metainfoversion" Value="IW|1" />
+                <MetaKey Name="vti_foldersubfolderitemcount" Value="IR|0" />
+            </MetaInfo>
+        </File>
+        <File Name="overview.aspx" Src="40000000.000">
+            <MetaInfo>
+                <MetaKey Name="vti_contentversionisdirty" Value="BW|false" />
+                <MetaKey Name="vti_rtag" Value="SW|rt:6AD85B35-BD26-4926-80D1-E0BBE8594908@00000000001" />
+                <MetaKey Name="vti_etag" Value="SW|&quot;{6AD85B35-BD26-4926-80D1-E0BBE8594908},1&quot;" />
+                <MetaKey Name="vti_hasdefaultcontent" Value="BX|true" />
+                <MetaKey Name="vti_parserversion" Value="SR|14.0.0.6029" />
+                <MetaKey Name="vti_timecreated" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_contenttag" Value="SW|{6AD85B35-BD26-4926-80D1-E0BBE8594908},1,0" />
+                <MetaKey Name="vti_folderitemcount" Value="IR|0" />
+                <MetaKey Name="vti_charset" Value="SR|utf-8" />
+                <MetaKey Name="vti_timelastmodified" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_candeleteversion" Value="BR|true" />
+                <MetaKey Name="vti_cachedzones" Value="VR|Main" />
+                <MetaKey Name="vti_author" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_setuppath" Value="SR|pages\viewpage.aspx" />
+                <MetaKey Name="vti_replid" Value="SR|rid:{6AD85B35-BD26-4926-80D1-E0BBE8594908}" />
+                <MetaKey Name="vti_sourcecontrolversion" Value="SR|V1.0" />
+                <MetaKey Name="vti_sourcecontrolcookie" Value="SR|fp_internal" />
+                <MetaKey Name="vti_cachedneedsrewrite" Value="BR|false" />
+                <MetaKey Name="vti_themeaggregate" Value="SR|default" />
+                <MetaKey Name="vti_setuppathversion" Value="IR|4" />
+                <MetaKey Name="vti_level" Value="IR|1" />
+                <MetaKey Name="vti_filesize" Value="IR|3370" />
+                <MetaKey Name="vti_cachedhastheme" Value="BR|false" />
+                <MetaKey Name="vti_modifiedby" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_docstoretype" Value="IR|0" />
+                <MetaKey Name="vti_docstoreversion" Value="IR|1" />
+                <MetaKey Name="vti_metainfoversion" Value="IW|1" />
+                <MetaKey Name="vti_foldersubfolderitemcount" Value="IR|0" />
+            </MetaInfo>
+        </File>
+        <File Name="summary.aspx" Src="50000000.000">
+            <MetaInfo>
+                <MetaKey Name="vti_contentversionisdirty" Value="BW|false" />
+                <MetaKey Name="vti_rtag" Value="SW|rt:3ED791ED-34D2-42C8-883B-C1750C17278F@00000000001" />
+                <MetaKey Name="vti_etag" Value="SW|&quot;{3ED791ED-34D2-42C8-883B-C1750C17278F},1&quot;" />
+                <MetaKey Name="vti_hasdefaultcontent" Value="BX|true" />
+                <MetaKey Name="vti_parserversion" Value="SR|14.0.0.6029" />
+                <MetaKey Name="vti_timecreated" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_contenttag" Value="SW|{3ED791ED-34D2-42C8-883B-C1750C17278F},1,0" />
+                <MetaKey Name="vti_folderitemcount" Value="IR|0" />
+                <MetaKey Name="vti_charset" Value="SR|utf-8" />
+                <MetaKey Name="vti_timelastmodified" Value="TR|11 Jul 2013 01:48:14 -0000" />
+                <MetaKey Name="vti_candeleteversion" Value="BR|true" />
+                <MetaKey Name="vti_cachedzones" Value="VR|Main" />
+                <MetaKey Name="vti_author" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_setuppath" Value="SR|pages\viewpage.aspx" />
+                <MetaKey Name="vti_replid" Value="SR|rid:{3ED791ED-34D2-42C8-883B-C1750C17278F}" />
+                <MetaKey Name="vti_sourcecontrolversion" Value="SR|V1.0" />
+                <MetaKey Name="vti_sourcecontrolcookie" Value="SR|fp_internal" />
+                <MetaKey Name="vti_cachedneedsrewrite" Value="BR|false" />
+                <MetaKey Name="vti_themeaggregate" Value="SR|default" />
+                <MetaKey Name="vti_setuppathversion" Value="IR|4" />
+                <MetaKey Name="vti_level" Value="IR|1" />
+                <MetaKey Name="vti_filesize" Value="IR|3370" />
+                <MetaKey Name="vti_cachedhastheme" Value="BR|false" />
+                <MetaKey Name="vti_modifiedby" Value="SR|SHAREPOINT\system" />
+                <MetaKey Name="vti_docstoretype" Value="IR|0" />
+                <MetaKey Name="vti_docstoreversion" Value="IR|1" />
+                <MetaKey Name="vti_metainfoversion" Value="IW|1" />
+                <MetaKey Name="vti_foldersubfolderitemcount" Value="IR|0" />
+            </MetaInfo>
+        </File>
+    </Files>
+
+    <UserLists>
+        <List Name="{E90F7B07-D20A-42DF-9C87-C8D0F830AEE4}" Title="アンケート" Description="" Direction="0" BaseType="4" FeatureId="{00BFEA71-EB8A-40B1-80C7-506BE7590102}" ServerTemplate="102" Url="Lists/SeminarSurvey" DisableAttachments="TRUE" FolderCreation="FALSE" SuppressNameDisplay="TRUE" BrowserFileHandling="permissive" Version="12">
+            <MetaData>
+                <Views>
+                    <View Name="{557D8DBD-D3B3-4C96-B7A4-E376E09B9469}" DefaultView="TRUE" Type="HTML" TabularView="FALSE" ReadOnly="TRUE" FreeForm="TRUE" DisplayName="概要" Url="Lists/SeminarSurvey/overview.aspx" Level="1" BaseViewID="3" ContentTypeID="0x" ImageUrl="/_layouts/images/survey.png" CssStyleSheet="survey.css">
+                        <ViewFields>
+                            <FieldRef Name="Author"/>
+                            <FieldRef Name="Q1_xff0e__x0020__x4eca__x56de__x"/>
+                            <FieldRef Name="Q2_xff0e__x0020__x4eca__x56de__x"/>
+                            <FieldRef Name="Q3_xff0e__x0020__x4eca__x56de__x"/>
+                            <FieldRef Name="Q4_xff0e__x0020__x30bb__x30df__x"/>
+                        </ViewFields>
+                        <Toolbar Type="Standard"/>
+                        <ViewEmpty>
+                            <HTML><![CDATA[
+                        <table class="ms-summarystandardbody" cellpadding="0" cellspacing="0" width="600px" style="margin: 10px;" border="0" rules="rows"><tr><td class="ms-formlabel" width="190px" id="overview01">アンケート名:</td><td class="ms-formbody">]]></HTML>
+                            <ListProperty Select="Title" HTMLEncode="TRUE"/>
+                            <HTML><![CDATA[</td></tr><tr><td class="ms-formlabel" valign="top" id="overview02">アンケートの説明:</td><td class="ms-formbody">]]></HTML>
+                            <ListProperty Select="Description" AutoHyperLink="TRUE"/>
+                            <HTML><![CDATA[</td></tr><tr><td class="ms-formlabel" id="overview03">作成時刻:</td><td class="ms-formbody">]]></HTML>
+                            <ListProperty Select="Created" HTMLEncode="TRUE"/>
+                            <HTML><![CDATA[</td></tr><tr><td class="ms-formlabel" id="overview04">回答数:</td><td class="ms-formbody">]]></HTML>
+                            <ListProperty Select="ItemCount" ForInstance="TRUE"/>
+                            <HTML><![CDATA[</td></tr><tr><td><img src="/_layouts/images/blank.gif" width='1' height='1' alt="" /></td></tr></table>
+<table border="0" style="margin: 0px 8px 0px 8px;">
+<tr><td><img src="/_layouts/images/blank.gif" width="1" height="4" alt="" /></td></tr>
+<tr>
+<td nowrap="nowrap">
+<img src="/_layouts/images/rect.gif" alt="" /><span class="ms-toolbar">&#160;</span>
+<a class="ms-toolbar" accesskey="R" id="diidSurveyResults" href="]]></HTML>
+                            <ListUrlDir HTMLEncode="TRUE"/>
+                            <HTML><![CDATA[/summary.aspx">回答の概要をグラフで表示する</a>
+<span class="ms-toolbar">&#160;</span>
+</td>
+</tr>
+<tr>
+<td nowrap="nowrap">
+<img src="/_layouts/images/rect.gif" alt="" /><span class="ms-toolbar">&#160;</span>
+<a class="ms-toolbar" accesskey="U" id="diidResultsByUser" href="]]></HTML>
+                            <ListUrlDir HTMLEncode="TRUE"/>
+                            <HTML><![CDATA[/AllItems.aspx">すべての回答を表示する</a>
+<span class="ms-toolbar">&#160;</span>
+</td>
+</tr>
+</table>  
+                        ]]>                            </HTML>
+                        </ViewEmpty>
+                        <XslLink>main.xsl</XslLink>
+                    </View>
+                    <View Name="{791A4987-BA66-4939-B1A2-0EAA0C8B3BC5}" Type="CHART" ReadOnly="TRUE" FreeForm="TRUE" DisplayName="概要 (グラフ)" Url="Lists/SeminarSurvey/summary.aspx" Level="1" BaseViewID="1" ContentTypeID="0x" ImageUrl="/_layouts/images/survey.png" CssStyleSheet="survey.css">
+                        <ViewFields>
+                            <FieldRef Name="Q1_xff0e__x0020__x4eca__x56de__x"/>
+                            <FieldRef Name="Q2_xff0e__x0020__x4eca__x56de__x"/>
+                            <FieldRef Name="Q3_xff0e__x0020__x4eca__x56de__x"/>
+                            <FieldRef Name="Q4_xff0e__x0020__x30bb__x30df__x"/>
+                        </ViewFields>
+                        <Toolbar Type="Standard"/>
+                    </View>
+                    <View Name="{961E1AF8-A720-435A-B5D4-721B4E444AA9}" Type="HTML" TabularView="FALSE" DisplayName="すべての回答" Url="Lists/SeminarSurvey/AllItems.aspx" Level="1" BaseViewID="2" ContentTypeID="0x" ImageUrl="/_layouts/images/survey.png">
+                        <XslLink Default="TRUE">main.xsl</XslLink>
+                        <RowLimit Paged="TRUE">30</RowLimit>
+                        <Toolbar Type="Standard"/>
+                        <ViewFields>
+                            <FieldRef Name="DisplayResponse"/>
+                            <FieldRef Name="Author"/>
+                            <FieldRef Name="Modified"/>
+                            <FieldRef Name="Completed"/>
+                        </ViewFields>
+                        <ParameterBindings>
+                            <ParameterBinding Name="NoAnnouncements" Location="Resource(wss,noresponses)"/>
+                        </ParameterBindings>
+                        <Query>
+                            <OrderBy>
+                                <FieldRef Name="ID"/>
+                            </OrderBy>
+                        </Query>
+                    </View>
+                </Views>
+                <Fields>
+                    <Field ID="{03e45e84-1992-4d42-9116-26f756012634}" RowOrdinal="0" Type="ContentTypeId" Sealed="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Content_Type_ID;" Name="ContentTypeId" DisplaceOnUpgrade="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ContentTypeId" ColName="tp_ContentTypeId" FromBaseType="TRUE"/>
+                    <Field ID="{e6f528fb-2e22-483d-9c80-f2536acdc6de}" ReadOnly="TRUE" Type="Text" Hidden="TRUE" Name="Title" DisplayName="$Resources:core,Title;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Title" FromBaseType="TRUE" ColName="nvarchar1"/>
+                    <Field ID="{1df5e554-ec7e-46a6-901d-d85a3881cb18}" ColName="tp_Author" RowOrdinal="0" ReadOnly="TRUE" Type="User" List="UserInfo" Presence="FALSE" Name="Author" DisplayName="$Resources:core,Created_By;" Sortable="FALSE" Filterable="FALSE" AllowMultiVote="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Author" FromBaseType="TRUE" ForcedDisplay="***"/>
+                    <Field ID="{d31655d1-1d5b-4511-95a1-7a09e9b75bf2}" ColName="tp_Editor" RowOrdinal="0" ReadOnly="TRUE" Type="User" List="UserInfo" Presence="FALSE" Name="Editor" DisplayName="$Resources:core,Modified_By;" Sortable="FALSE" Filterable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Editor" FromBaseType="TRUE" ForcedDisplay="***"/>
+                    <Field ID="{39360f11-34cf-4356-9945-25c44e68dade}" ReadOnly="TRUE" Hidden="TRUE" Type="Text" Name="File_x0020_Type" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,File_Type;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="File_x0020_Type" FromBaseType="TRUE" ColName="nvarchar2"/>
+                    <Field Type="Choice" DisplayName="Q1． 今回のセミナー＆イベントは参考になりましたか？" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="RadioButtons" FillInChoice="FALSE" ID="{85e0780c-3c94-4191-8505-16df1055ee88}" SourceID="{e90f7b07-d20a-42df-9c87-c8d0f830aee4}" StaticName="Q1_xff0e__x0020__x4eca__x56de__x" Name="Q1_xff0e__x0020__x4eca__x56de__x" ColName="nvarchar3" RowOrdinal="0" Version="1">
+                        <CHOICES>
+                            <CHOICE>非常に参考になった</CHOICE>
+                            <CHOICE>参考になった</CHOICE>
+                            <CHOICE>普通</CHOICE>
+                            <CHOICE>あまり参考にならなかった</CHOICE>
+                            <CHOICE>まったく参考にならなかった</CHOICE>
+                        </CHOICES>
+                    </Field>
+                    <Field Type="Choice" DisplayName="Q2． 今回のセミナー＆イベントの内容はわかりやすかったですか？" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="RadioButtons" FillInChoice="FALSE" ID="{f03f6f54-e8be-4680-8a8a-232431329340}" SourceID="{e90f7b07-d20a-42df-9c87-c8d0f830aee4}" StaticName="Q2_xff0e__x0020__x4eca__x56de__x" Name="Q2_xff0e__x0020__x4eca__x56de__x" ColName="nvarchar4" RowOrdinal="0" Version="1">
+                        <CHOICES>
+                            <CHOICE>非常に分かりやすかった</CHOICE>
+                            <CHOICE>分かりやすかった</CHOICE>
+                            <CHOICE>普通</CHOICE>
+                            <CHOICE>分かりにくかった</CHOICE>
+                            <CHOICE>とても分かりにくかった</CHOICE>
+                        </CHOICES>
+                    </Field>
+                    <Field Type="Choice" DisplayName="Q3． 今回のセミナー＆イベントは期待通りでしたか？" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" Format="RadioButtons" FillInChoice="FALSE" ID="{bb338cde-0bff-47b4-a4ab-d0b04e53f633}" SourceID="{e90f7b07-d20a-42df-9c87-c8d0f830aee4}" StaticName="Q3_xff0e__x0020__x4eca__x56de__x" Name="Q3_xff0e__x0020__x4eca__x56de__x" ColName="nvarchar5" RowOrdinal="0" Version="1">
+                        <CHOICES>
+                            <CHOICE>非常に期待通りだった</CHOICE>
+                            <CHOICE>期待通りだった</CHOICE>
+                            <CHOICE>普通</CHOICE>
+                            <CHOICE>期待はずれだった</CHOICE>
+                            <CHOICE>非常に期待はずれだった</CHOICE>
+                        </CHOICES>
+                    </Field>
+                    <Field Type="Note" DisplayName="Q4． セミナー＆イベントに参加した感想をお聞かせください。" Required="FALSE" EnforceUniqueValues="FALSE" Indexed="FALSE" NumLines="6" RichText="FALSE" Sortable="FALSE" ID="{365bfaa1-2681-46ea-bbe5-0506b55466dc}" SourceID="{e90f7b07-d20a-42df-9c87-c8d0f830aee4}" StaticName="Q4_xff0e__x0020__x30bb__x30df__x" Name="Q4_xff0e__x0020__x30bb__x30df__x" ColName="ntext1" RowOrdinal="0" Version="1"/>
+                    <Field ID="{1d22ea11-1e32-424e-89ab-9fedbadb6ce1}" ColName="tp_ID" RowOrdinal="0" ReadOnly="TRUE" Type="Counter" Name="ID" PrimaryKey="TRUE" DisplayName="$Resources:core,ID;" Required="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ID" FromBaseType="TRUE"/>
+                    <Field ID="{c042a256-787d-4a6f-8a8a-cf6ab767f12d}" Type="Computed" DisplayName="$Resources:core,Content_Type;" Name="ContentType" DisplaceOnUpgrade="TRUE" RenderXMLUsingPattern="TRUE" Sortable="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ContentType" Group="_Hidden" PITarget="MicrosoftWindowsSharePointServices" PIAttribute="ContentTypeID" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="ContentTypeId"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <MapToContentType>
+                                <Column Name="ContentTypeId"/>
+                            </MapToContentType>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{28cf69c5-fa48-462a-b5cd-27b6f9d2bd5f}" ColName="tp_Modified" RowOrdinal="0" ReadOnly="TRUE" Type="DateTime" Name="Modified" DisplayName="$Resources:core,Modified;" StorageTZ="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Modified" FromBaseType="TRUE"/>
+                    <Field ID="{8c06beca-0777-48f7-91c7-6da68bc07b69}" ColName="tp_Created" RowOrdinal="0" ReadOnly="TRUE" Type="DateTime" Name="Created" DisplayName="$Resources:core,Created;" StorageTZ="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Created" FromBaseType="TRUE"/>
+                    <Field ID="{26d0756c-986a-48a7-af35-bf18ab85ff4a}" ColName="tp_HasCopyDestinations" RowOrdinal="0" Sealed="TRUE" Hidden="TRUE" ReadOnly="TRUE" Type="Boolean" Name="_HasCopyDestinations" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Has_Copy_Destinations;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_HasCopyDestinations" FromBaseType="TRUE"/>
+                    <Field ID="{6b4e226d-3d88-4a36-808d-a129bf52bccf}" ColName="tp_CopySource" RowOrdinal="0" Sealed="TRUE" Hidden="TRUE" ReadOnly="TRUE" Type="Text" Name="_CopySource" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Copy_Source;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_CopySource" FromBaseType="TRUE"/>
+                    <Field ID="{d4e44a66-ee3a-4d02-88c9-4ec5ff3f4cd5}" ColName="tp_Version" RowOrdinal="0" Hidden="TRUE" ReadOnly="TRUE" Type="Integer" SetAs="owshiddenversion" Name="owshiddenversion" DisplayName="$Resources:core,owshiddenversion;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="owshiddenversion" FromBaseType="TRUE"/>
+                    <Field ID="{7841bf41-43d0-4434-9f50-a673baef7631}" ColName="tp_UIVersion" RowOrdinal="0" ReadOnly="TRUE" Type="Integer" Name="_UIVersion" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,UI_Version;" Hidden="TRUE" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_UIVersion" FromBaseType="TRUE"/>
+                    <Field ID="{dce8262a-3ae9-45aa-aab4-83bd75fb738a}" ColName="tp_UIVersionString" RowOrdinal="0" ReadOnly="TRUE" Type="Text" Name="_UIVersionString" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Version_Number;" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_UIVersionString" FromBaseType="TRUE"/>
+                    <Field ID="{fdc3b2ed-5bf2-4835-a4bc-b885f3396a61}" ColName="tp_ModerationStatus" RowOrdinal="0" ReadOnly="TRUE" Type="ModStat" Name="_ModerationStatus" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Approval_Status;" Hidden="TRUE" CanToggleHidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_ModerationStatus" FromBaseType="TRUE">
+                        <CHOICES>
+                            <CHOICE>0;#$Resources:core,402;</CHOICE>
+                            <CHOICE>1;#$Resources:core,400;</CHOICE>
+                            <CHOICE>2;#$Resources:core,401;</CHOICE>
+                            <CHOICE>3;#$Resources:core,403;</CHOICE>
+                            <CHOICE>4;#$Resources:core,404;</CHOICE>
+                        </CHOICES>
+                        <Default>0</Default>
+                    </Field>
+                    <Field ID="{f5fd696c-6384-4bb9-bc11-54fa101baf8f}" ReadOnly="TRUE" Type="Computed" Name="DisplayResponseNoMenu" Sortable="FALSE" Filterable="FALSE" DisplayName="$Resources:core,View_Response;" AuthoringInfo="$Resources:core,AuthoringInfo_hyperlink;" ListItemMenuAllowed="Prohibited" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DisplayResponseNoMenu" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="ID"/>
+                            <FieldRef Name="Editor"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <HTML><![CDATA[<a onfocus="OnLink(this)" href="]]></HTML>
+                            <URL/>
+                            <HTML><![CDATA[" onclick="GoToLink(this);return false;" target="_self" id="onetidViewResponse">]]></HTML>
+                            <HTML> $Resources:core,View_Response; #</HTML>
+                            <Column HTMLEncode="TRUE" Name="ID"/>
+                            <HTML><![CDATA[</a>]]></HTML>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{1443b460-28a8-4050-9994-c24971a765ec}" ReadOnly="TRUE" Type="Computed" Name="DisplayResponse" Sortable="FALSE" Filterable="FALSE" DisplayName="$Resources:core,View_Response;" ClassInfo="Menu" AuthoringInfo="$Resources:core,hyperlink_with_edit_menu;" ListItemMenuAllowed="Required" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DisplayResponse" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="ID"/>
+                            <FieldRef Name="DisplayResponseNoMenu"/>
+                            <FieldRef Name="_EditMenuTableStart2"/>
+                            <FieldRef Name="_EditMenuTableEnd"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <FieldSwitch>
+                                <Expr>
+                                    <GetVar Name="FreeForm"/>
+                                </Expr>
+                                <Case Value="TRUE">
+                                    <Field Name="DisplayResponseNoMenu"/>
+                                </Case>
+                                <Default>
+                                    <Switch>
+                                        <Expr>
+                                            <GetVar Name="MasterVersion"/>
+                                        </Expr>
+                                        <Case Value="4">
+                                            <HTML><![CDATA[<div class="ms-vb itx" onmouseover="OnItem(this)" CTXName="ctx]]></HTML>
+                                            <Field Name="_EditMenuTableStart2"/>
+                                            <HTML><![CDATA[">]]></HTML>
+                                            <Field Name="DisplayResponseNoMenu"/>
+                                            <HTML><![CDATA[</div>]]></HTML>
+                                            <HTML><![CDATA[<div class="s4-ctx" onmouseover="OnChildItem(this.parentNode); return false;">]]></HTML>
+                                            <HTML><![CDATA[<span>&nbsp;</span>]]></HTML>
+                                            <HTML><![CDATA[<a onfocus="OnChildItem(this.parentNode.parentNode); return false;" onclick="PopMenuFromChevron(event); return false;" href="javascript:;" title="$Resources:core,open_menu;"></a>]]></HTML>
+                                            <HTML><![CDATA[<span>&nbsp;</span>]]></HTML>
+                                            <HTML><![CDATA[</div>]]></HTML>
+                                        </Case>
+                                        <Default>
+                                            <HTML><![CDATA[<table height="100%" cellspacing="0" class="ms-unselectedtitle itx" onmouseover="OnItem(this)" CTXName="ctx]]></HTML>
+                                            <Field Name="_EditMenuTableStart2"/>
+                                            <HTML><![CDATA["><tr><td width="100%" class="ms-vb">]]></HTML>
+                                            <SetVar Name="ShowAccessibleIcon" Value="1"/>
+                                            <Field Name="DisplayResponseNoMenu"/>
+                                            <SetVar Name="ShowAccessibleIcon" Value="0"/>
+                                            <HTML><![CDATA[</td><td><img src="/_layouts/images/blank.gif" width="13" style="visibility:hidden" alt=""/></td></tr></table>]]></HTML>
+                                        </Default>
+                                    </Switch>
+                                </Default>
+                            </FieldSwitch>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{37ff2bec-b797-4555-be45-1d67333ea985}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="DisplayResponse2" Sortable="FALSE" Filterable="FALSE" DisplayName="$Resources:core,View_Response;" ClassInfo="Menu" AuthoringInfo="$Resources:core,hyperlink_with_edit_menu; (old)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DisplayResponse2" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="ID"/>
+                            <FieldRef Name="DisplayResponseNoMenu"/>
+                            <FieldRef Name="_EditMenuTableStart"/>
+                            <FieldRef Name="_EditMenuTableEnd"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <FieldSwitch>
+                                <Expr>
+                                    <GetVar Name="FreeForm"/>
+                                </Expr>
+                                <Case Value="TRUE">
+                                    <Field Name="DisplayResponseNoMenu"/>
+                                </Case>
+                                <Default>
+                                    <Field Name="_EditMenuTableStart"/>
+                                    <SetVar Name="ShowAccessibleIcon" Value="1"/>
+                                    <Field Name="DisplayResponseNoMenu"/>
+                                    <SetVar Name="ShowAccessibleIcon" Value="0"/>
+                                    <Field Name="_EditMenuTableEnd"/>
+                                </Default>
+                            </FieldSwitch>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{50a54da4-1528-4e67-954a-e2d24f1e9efb}" Name="InstanceID" RowOrdinal="0" DisplayName="$Resources:core,Instance_ID;" ColName="tp_InstanceID" ReadOnly="TRUE" Hidden="TRUE" Type="Integer" Min="0" Max="99991231" Filterable="TRUE" Sortable="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="InstanceID" FromBaseType="TRUE"/>
+                    <Field ID="{ca4addac-796f-4b23-b093-d2a3f65c0774}" ColName="tp_ItemOrder" RowOrdinal="0" Name="Order" DisplayName="$Resources:core,Order;" Type="Number" Hidden="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Order" FromBaseType="TRUE"/>
+                    <Field ID="{94f89715-e097-4e8b-ba79-ea02aa8b7adb}" Name="FileRef" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" Type="Lookup" DisplayName="$Resources:core,URL_Path;" List="Docs" FieldRef="ID" ShowField="FullUrl" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileRef" FromBaseType="TRUE"/>
+                    <Field ID="{56605df6-8fa1-47e4-a04c-5b384d59609f}" Name="FileDirRef" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" Type="Lookup" DisplayName="$Resources:core,URL_Dir_Name;" List="Docs" FieldRef="ID" ShowField="DirName" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileDirRef" FromBaseType="TRUE"/>
+                    <Field ID="{173f76c8-aebd-446a-9bc9-769a2bd2c18f}" Name="Last_x0020_Modified" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Modified;" Type="Lookup" List="Docs" FieldRef="ID" ShowField="TimeLastModified" Format="TRUE" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Last_x0020_Modified" FromBaseType="TRUE"/>
+                    <Field ID="{998b5cff-4a35-47a7-92f3-3914aa6aa4a2}" Name="Created_x0020_Date" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Created;" Type="Lookup" List="Docs" FieldRef="ID" ShowField="TimeCreated" Format="TRUE" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Created_x0020_Date" FromBaseType="TRUE"/>
+                    <Field ID="{30bb605f-5bae-48fe-b4e3-1f81d9772af9}" Name="FSObjType" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,File_System_Object_Type;" List="Docs" FieldRef="ID" ShowField="FSType" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FSObjType" FromBaseType="TRUE"/>
+                    <Field ID="{423874f8-c300-4bfb-b7a1-42e2159e3b19}" Name="SortBehavior" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,Sort_Behavior_Type;" List="Docs" FieldRef="ID" ShowField="SortBehavior" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SortBehavior" FromBaseType="TRUE"/>
+                    <Field ID="{ba3c27ee-4791-4867-8821-ff99000bac98}" Name="PermMask" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" RenderXMLUsingPattern="TRUE" ShowInFileDlg="FALSE" Type="Computed" DisplayName="$Resources:core,Effective_Perm_Mask;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="PermMask" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="ID"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <CurrentRights/>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{8553196d-ec8d-4564-9861-3dbe931050c8}" Hidden="TRUE" ShowInFileDlg="FALSE" ShowInVersionHistory="FALSE" Type="File" Name="FileLeafRef" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Name;" AuthoringInfo="$Resources:core,for_use_in_forms;" List="Docs" FieldRef="ID" ShowField="LeafName" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FileLeafRef" FromBaseType="TRUE"/>
+                    <Field ID="{4b7403de-8d94-43e8-9f0f-137a3e298126}" Name="UniqueId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,UniqueId;" List="Docs" FieldRef="ID" ShowField="UniqueId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="UniqueId" FromBaseType="TRUE"/>
+                    <Field ID="{6d2c4fde-3605-428e-a236-ce5f3dc2b4d4}" Name="SyncClientId" DisplaceOnUpgrade="TRUE" Hidden="TRUE" ReadOnly="TRUE" DisplayName="$Resources:core,Sync_Client_Id;" ShowInFileDlg="FALSE" Type="Lookup" List="Docs" FieldRef="ID" ShowField="SyncClientId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="SyncClientId" FromBaseType="TRUE"/>
+                    <Field ID="{c5c4b81c-f1d9-4b43-a6a2-090df32ebb68}" Name="ProgId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,ProgId;" List="Docs" FieldRef="ID" ShowField="ProgId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ProgId" FromBaseType="TRUE"/>
+                    <Field ID="{dddd2420-b270-4735-93b5-92b713d0944d}" Name="ScopeId" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,ScopeId;" List="Docs" FieldRef="ID" ShowField="ScopeId" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ScopeId" FromBaseType="TRUE"/>
+                    <Field ReadOnly="TRUE" ID="{4ef1b78f-fdba-48dc-b8ab-3fa06a0c9804}" Hidden="TRUE" Type="Computed" Name="HTML_x0020_File_x0020_Type" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,HTML_File_Type;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="HTML_x0020_File_x0020_Type" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="File_x0020_Type"/>
+                        </FieldRefs>
+                        <DisplayPattern/>
+                    </Field>
+                    <Field ID="{3c6303be-e21f-4366-80d7-d6d0a3b22c7a}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableStart" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Edit_Menu_Table_Start;" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableStart" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="FileLeafRef"/>
+                            <FieldRef Name="FileDirRef"/>
+                            <FieldRef Name="FSObjType"/>
+                            <FieldRef Name="ID"/>
+                            <FieldRef Name="ServerUrl"/>
+                            <FieldRef Name="HTML_x0020_File_x0020_Type"/>
+                            <FieldRef Name="File_x0020_Type"/>
+                            <FieldRef Name="PermMask"/>
+                            <FieldRef Name="_HasCopyDestinations"/>
+                            <FieldRef Name="_CopySource"/>
+                            <FieldRef Name="ContentType"/>
+                            <FieldRef Name="ContentTypeId"/>
+                            <FieldRef Name="_ModerationStatus"/>
+                            <FieldRef Name="_UIVersion"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <Switch>
+                                <Expr>
+                                    <GetVar Name="MasterVersion"/>
+                                </Expr>
+                                <Case Value="4">
+                                    <HTML><![CDATA[<div class="ms-vb" onmouseover="OnItem(this)" CTXName="ctx]]></HTML>
+                                </Case>
+                                <Default>
+                                    <HTML><![CDATA[<table height="100%" cellspacing="0" class="ms-unselectedtitle" onmouseover="OnItem(this)" CTXName="ctx]]></HTML>
+                                </Default>
+                            </Switch>
+                            <Counter Type="View"/>
+                            <HTML>&quot; id=&quot;</HTML>
+                            <Column Name="ID" HTMLEncode="TRUE"/>
+                            <HTML>&quot; Url=&quot;</HTML>
+                            <Field Name="ServerUrl" URLEncodeAsURL="TRUE"/>
+                            <HTML>&quot; DRef=&quot;</HTML>
+                            <Field Name="FileDirRef"/>
+                            <HTML>&quot; Perm=&quot;</HTML>
+                            <Field Name="PermMask"/>
+                            <HTML>&quot; type=&quot;</HTML>
+                            <Column Name="HTML_x0020_File_x0020_Type"/>
+                            <HTML>&quot; Ext=&quot;</HTML>
+                            <Column Name="File_x0020_Type"/>
+                            <HTML>&quot; Icon=&quot;</HTML>
+                            <MapToAll>
+                                <Column Name="HTML_x0020_File_x0020_Type"/>
+                                <HTML>|</HTML>
+                                <Column Name="File_x0020_Type"/>
+                            </MapToAll>
+                            <HTML>&quot; OType=&quot;</HTML>
+                            <LookupColumn Name="FSObjType"/>
+                            <HTML>&quot; COUId=&quot;</HTML>
+                            <HTML>&quot; HCD=&quot;</HTML>
+                            <Column Name="_HasCopyDestinations"/>
+                            <HTML>&quot; CSrc=&quot;</HTML>
+                            <Column Name="_CopySource" URLEncodeAsURL="TRUE"/>
+                            <HTML>&quot; MS=&quot;</HTML>
+                            <Column Name="_ModerationStatus"/>
+                            <HTML><![CDATA[" CType="]]></HTML>
+                            <Column Name="ContentType" HTMLEncode="TRUE"/>
+                            <HTML><![CDATA[" CId="]]></HTML>
+                            <Column Name="ContentTypeId"/>
+                            <HTML>&quot; UIS=&quot;</HTML>
+                            <Column Name="_UIVersion"/>
+                            <GetVar Name="_EditMenuTableExtra"/>
+                            <HTML>&quot; SUrl=&quot;</HTML>
+                            <Switch>
+                                <Expr>
+                                    <GetVar Name="MasterVersion"/>
+                                </Expr>
+                                <Case Value="4">
+                                    <HTML><![CDATA[">]]></HTML>
+                                </Case>
+                                <Default>
+                                    <HTML><![CDATA["><tr><td width="100%" class="ms-vb">]]></HTML>
+                                </Default>
+                            </Switch>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{1344423c-c7f9-4134-88e4-ad842e2d723c}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableStart2" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Edit_Menu_Table_Start;" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableStart2" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="ID"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <Counter Type="View"/>
+                            <HTML>&quot; id=&quot;</HTML>
+                            <Column Name="ID" HTMLEncode="TRUE"/>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{2ea78cef-1bf9-4019-960a-02c41636cb47}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="_EditMenuTableEnd" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Edit_Menu_Table_End;" ClassInfo="Menu" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_EditMenuTableEnd" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="ID"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <Switch>
+                                <Expr>
+                                    <GetVar Name="MasterVersion"/>
+                                </Expr>
+                                <Case Value="4">
+                                    <HTML><![CDATA[</div>]]></HTML>
+                                    <HTML><![CDATA[<div class="s4-ctx" onmouseover="OnChildItem(this.parentNode); return false;">]]></HTML>
+                                    <HTML><![CDATA[<span>&nbsp;</span>]]></HTML>
+                                    <HTML><![CDATA[<a onfocus="OnChildItem(this.parentNode.parentNode); return false;" onclick="PopMenuFromChevron(event); return false;" href="javascript:;" title="$Resources:core,open_menu;"></a>]]></HTML>
+                                    <HTML><![CDATA[<span>&nbsp;</span>]]></HTML>
+                                    <HTML><![CDATA[</div>]]></HTML>
+                                </Case>
+                                <Default>
+                                    <HTML><![CDATA[</td><td><img src="/_layouts/images/blank.gif" width="13" style="visibility:hidden" alt=""/></td></tr></table>]]></HTML>
+                                </Default>
+                            </Switch>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{9d30f126-ba48-446b-b8f9-83745f322ebe}" ReadOnly="TRUE" Type="Computed" Name="LinkFilenameNoMenu" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Name;" Hidden="TRUE" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" AuthoringInfo="$Resources:core,linked_to_document;" ListItemMenuAllowed="Prohibited" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilenameNoMenu" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="FileLeafRef"/>
+                            <FieldRef Name="FSObjType"/>
+                            <FieldRef Name="Created_x0020_Date"/>
+                            <FieldRef Name="FileRef"/>
+                            <FieldRef Name="File_x0020_Type"/>
+                            <FieldRef Name="HTML_x0020_File_x0020_Type"/>
+                            <FieldRef Name="ContentTypeId"/>
+                            <FieldRef Name="PermMask"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <IfEqual>
+                                <Expr1>
+                                    <LookupColumn Name="FSObjType"/>
+                                </Expr1>
+                                <Expr2>1</Expr2>
+                                <Then>
+                                    <FieldSwitch>
+                                        <Expr>
+                                            <GetVar Name="RecursiveView"/>
+                                        </Expr>
+                                        <Case Value="1">
+                                            <LookupColumn Name="FileLeafRef" HTMLEncode="TRUE"/>
+                                        </Case>
+                                        <Default>
+                                            <SetVar Name="UnencodedFilterLink">
+                                                <SetVar Name="RootFolder">
+                                                    <HTML>/</HTML>
+                                                    <LookupColumn Name="FileRef"/>
+                                                </SetVar>
+                                                <SetVar Name="SkipHost">1</SetVar>
+                                                <SetVar Name="FolderCTID">
+                                                    <FieldSwitch>
+                                                        <Expr>
+                                                            <ListProperty Select="EnableContentTypes"/>
+                                                        </Expr>
+                                                        <Case Value="1">
+                                                            <Column Name="ContentTypeId"/>
+                                                        </Case>
+                                                    </FieldSwitch>
+                                                </SetVar>
+                                                <FilterLink Default="" Paged="FALSE"/>
+                                            </SetVar>
+                                            <HTML><![CDATA[<a onfocus="OnLink(this)" href="]]></HTML>
+                                            <GetVar Name="UnencodedFilterLink" HTMLEncode="TRUE"/>
+                                            <HTML><![CDATA[" onmousedown="javascript:VerifyFolderHref(this,event, ']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <GetVar Name="UnencodedFilterLink"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <ListProperty Select="DefaultItemOpen"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <MapToControl>
+                                                    <Column Name="HTML_x0020_File_x0020_Type"/>
+                                                    <HTML>|</HTML>
+                                                    <Column Name="File_x0020_Type"/>
+                                                </MapToControl>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <Column Name="HTML_x0020_File_x0020_Type"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[')"]]></HTML>
+                                            <HTML><![CDATA[" onclick="return HandleFolder(this,event, ']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <GetVar Name="UnencodedFilterLink"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <ServerProperty Select="HtmlTransform"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <ListProperty Select="DefaultItemOpen"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <MapToControl>
+                                                    <Column Name="HTML_x0020_File_x0020_Type"/>
+                                                    <HTML>|</HTML>
+                                                    <Column Name="File_x0020_Type"/>
+                                                </MapToControl>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <Column Name="HTML_x0020_File_x0020_Type"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <UserID AllowAnonymous="TRUE"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <ListProperty Select="ForceCheckout"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <HTML><![CDATA[',']]></HTML>
+                                            <ScriptQuote NotAddingQuote="TRUE">
+                                                <Field Name="PermMask"/>
+                                            </ScriptQuote>
+                                            <HTML><![CDATA[');">]]></HTML>
+                                            <LookupColumn Name="FileLeafRef" HTMLEncode="TRUE"/>
+                                            <IfEqual>
+                                                <Expr1>
+                                                    <GetVar Name="ShowAccessibleIcon"/>
+                                                </Expr1>
+                                                <Expr2>1</Expr2>
+                                                <Then>
+                                                    <HTML><![CDATA[<img src="/_layouts/images/blank.gif" class="ms-hidden" border="0" width="1" height="1" alt="$Resources:core,OpenMenuKeyAccessible;"/>]]></HTML>
+                                                </Then>
+                                            </IfEqual>
+                                            <HTML><![CDATA[</a>]]></HTML>
+                                        </Default>
+                                    </FieldSwitch>
+                                </Then>
+                                <Else>
+                                    <HTML><![CDATA[<a onfocus="OnLink(this)" href="]]></HTML>
+                                    <Field Name="ServerUrl" URLEncodeAsURL="TRUE"/>
+                                    <HTML><![CDATA[" onclick="return DispEx(this,event,']]></HTML>
+                                    <ScriptQuote NotAddingQuote="TRUE">
+                                        <ServerProperty Select="HtmlTransform"/>
+                                    </ScriptQuote>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <ScriptQuote NotAddingQuote="TRUE">
+                                        <ListProperty Select="DefaultItemOpen"/>
+                                    </ScriptQuote>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <ScriptQuote NotAddingQuote="TRUE">
+                                        <MapToControl>
+                                            <Column Name="HTML_x0020_File_x0020_Type"/>
+                                            <HTML>|</HTML>
+                                            <Column Name="File_x0020_Type"/>
+                                        </MapToControl>
+                                    </ScriptQuote>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <ScriptQuote NotAddingQuote="TRUE">
+                                        <Column Name="HTML_x0020_File_x0020_Type"/>
+                                    </ScriptQuote>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <ScriptQuote NotAddingQuote="TRUE">
+                                        <UserID AllowAnonymous="TRUE"/>
+                                    </ScriptQuote>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <ScriptQuote NotAddingQuote="TRUE">
+                                        <ListProperty Select="ForceCheckout"/>
+                                    </ScriptQuote>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <HTML><![CDATA[',']]></HTML>
+                                    <ScriptQuote NotAddingQuote="TRUE">
+                                        <Field Name="PermMask"/>
+                                    </ScriptQuote>
+                                    <HTML><![CDATA[')">]]></HTML>
+                                    <UrlBaseName HTMLEncode="TRUE">
+                                        <LookupColumn Name="FileLeafRef"/>
+                                    </UrlBaseName>
+                                    <IfEqual>
+                                        <Expr1>
+                                            <GetVar Name="ShowAccessibleIcon"/>
+                                        </Expr1>
+                                        <Expr2>1</Expr2>
+                                        <Then>
+                                            <HTML><![CDATA[<img src="/_layouts/images/blank.gif" class="ms-hidden" border="0" width="1" height="1" alt="$Resources:core,OpenMenuKeyAccessible;"/>]]></HTML>
+                                        </Then>
+                                    </IfEqual>
+                                    <HTML><![CDATA[</a>]]></HTML>
+                                    <IfNew Name="Created_x0020_Date">
+                                        <HTML><![CDATA[<img src="/_layouts/[%=System.Threading.Thread.CurrentThread.CurrentUICulture.LCID%]/images/new.gif" alt="]]></HTML>
+                                        <HTML>$Resources:core,new_gif_alttext;</HTML>
+                                        <HTML><![CDATA[" class="ms-newgif" />]]></HTML>
+                                    </IfNew>
+                                </Else>
+                            </IfEqual>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{5cc6dc79-3710-4374-b433-61cb4a686c12}" ReadOnly="TRUE" Type="Computed" Name="LinkFilename" DisplaceOnUpgrade="TRUE" Hidden="TRUE" DisplayName="$Resources:core,Name;" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" ClassInfo="Menu" AuthoringInfo="$Resources:core,linked_to_document_with_edit_menu;" ListItemMenuAllowed="Required" LinkToItemAllowed="Prohibited" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilename" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="LinkFilenameNoMenu"/>
+                            <FieldRef Name="_EditMenuTableStart2"/>
+                            <FieldRef Name="_EditMenuTableEnd"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <FieldSwitch>
+                                <Expr>
+                                    <GetVar Name="FreeForm"/>
+                                </Expr>
+                                <Case Value="TRUE">
+                                    <Field Name="LinkFilenameNoMenu"/>
+                                </Case>
+                                <Default>
+                                    <Switch>
+                                        <Expr>
+                                            <GetVar Name="MasterVersion"/>
+                                        </Expr>
+                                        <Case Value="4">
+                                            <HTML><![CDATA[<div class="ms-vb itx" onmouseover="OnItem(this)" CTXName="ctx]]></HTML>
+                                            <Field Name="_EditMenuTableStart2"/>
+                                            <HTML><![CDATA[">]]></HTML>
+                                            <Field Name="LinkFilenameNoMenu"/>
+                                            <HTML><![CDATA[</div>]]></HTML>
+                                            <HTML><![CDATA[<div class="s4-ctx" onmouseover="OnChildItem(this.parentNode); return false;">]]></HTML>
+                                            <HTML><![CDATA[<span>&nbsp;</span>]]></HTML>
+                                            <HTML><![CDATA[<a onfocus="OnChildItem(this.parentNode.parentNode); return false;" onclick="PopMenuFromChevron(event); return false;" href="javascript:;" title="$Resources:core,open_menu;"></a>]]></HTML>
+                                            <HTML><![CDATA[<span>&nbsp;</span>]]></HTML>
+                                            <HTML><![CDATA[</div>]]></HTML>
+                                        </Case>
+                                        <Default>
+                                            <HTML><![CDATA[<table height="100%" cellspacing="0" class="ms-unselectedtitle itx" onmouseover="OnItem(this)" CTXName="ctx]]></HTML>
+                                            <Field Name="_EditMenuTableStart2"/>
+                                            <HTML><![CDATA["><tr><td width="100%" class="ms-vb">]]></HTML>
+                                            <SetVar Name="ShowAccessibleIcon" Value="1"/>
+                                            <Field Name="LinkFilenameNoMenu"/>
+                                            <SetVar Name="ShowAccessibleIcon" Value="0"/>
+                                            <HTML><![CDATA[</td><td><img src="/_layouts/images/blank.gif" width="13" style="visibility:hidden" alt=""/></td></tr></table>]]></HTML>
+                                        </Default>
+                                    </Switch>
+                                </Default>
+                            </FieldSwitch>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{224ba411-da77-4050-b0eb-62d422f13d3e}" Hidden="TRUE" ReadOnly="TRUE" Type="Computed" Name="LinkFilename2" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Name;" DisplayNameSrcField="FileLeafRef" Filterable="FALSE" ClassInfo="Menu" AuthoringInfo="$Resources:core,linked_to_document_with_edit_menu; (old)" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="LinkFilename2" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="LinkFilenameNoMenu"/>
+                            <FieldRef Name="_EditMenuTableStart"/>
+                            <FieldRef Name="_EditMenuTableEnd"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <FieldSwitch>
+                                <Expr>
+                                    <GetVar Name="FreeForm"/>
+                                </Expr>
+                                <Case Value="TRUE">
+                                    <Field Name="LinkFilenameNoMenu"/>
+                                </Case>
+                                <Default>
+                                    <Field Name="_EditMenuTableStart"/>
+                                    <SetVar Name="ShowAccessibleIcon" Value="1"/>
+                                    <Field Name="LinkFilenameNoMenu"/>
+                                    <SetVar Name="ShowAccessibleIcon" Value="0"/>
+                                    <Field Name="_EditMenuTableEnd"/>
+                                </Default>
+                            </FieldSwitch>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{081c6e4c-5c14-4f20-b23e-1a71ceb6a67c}" Type="Computed" ReadOnly="TRUE" Name="DocIcon" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Type;" TextOnly="TRUE" ClassInfo="Icon" AuthoringInfo="$Resources:core,Icon_Linked_Document;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="DocIcon" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="File_x0020_Type"/>
+                            <FieldRef Name="FSObjType"/>
+                            <FieldRef Name="FileRef"/>
+                            <FieldRef Name="FileLeafRef"/>
+                            <FieldRef Name="HTML_x0020_File_x0020_Type"/>
+                            <FieldRef Name="PermMask"/>
+                            <FieldRef Name="IconOverlay"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <SetVar Name="DocIconImg">
+                                <SetVar Name="DocIconAltText">
+                                    <IfEqual>
+                                        <Expr1>
+                                            <LookupColumn Name="FSObjType"/>
+                                        </Expr1>
+                                        <Expr2>1</Expr2>
+                                        <Then>
+                                            <IfSubString>
+                                                <Expr1>0x0120D5</Expr1>
+                                                <Expr2>
+                                                    <Column Name="ContentTypeId"/>
+                                                </Expr2>
+                                                <Then>
+                                                    <HTML>$Resources:core,itemname_documentset;: </HTML>
+                                                    <LookupColumn Name="FileLeafRef" HTMLEncode="TRUE"/>
+                                                </Then>
+                                                <Else>
+                                                    <HTML>$Resources:core,Folder;: </HTML>
+                                                    <LookupColumn Name="FileLeafRef" HTMLEncode="TRUE"/>
+                                                </Else>
+                                            </IfSubString>
+                                        </Then>
+                                        <Else>
+                                            <LookupColumn Name="Title" HTMLEncode="TRUE"/>
+                                        </Else>
+                                    </IfEqual>
+                                </SetVar>
+                                <SetVar Name="DocIconFileName">
+                                    <IfEqual>
+                                        <Expr1>
+                                            <Column Name="IconOverlay"/>
+                                        </Expr1>
+                                        <Expr2/>
+                                        <Then>
+                                            <IfEqual>
+                                                <Expr1>
+                                                    <LookupColumn Name="FSObjType"/>
+                                                </Expr1>
+                                                <Expr2>1</Expr2>
+                                                <Then>
+                                                    <IfEqual>
+                                                        <Expr1>
+                                                            <Column Name="HTML_x0020_File_x0020_Type"/>
+                                                            <HTML>|</HTML>
+                                                            <Column Name="File_x0020_Type"/>
+                                                        </Expr1>
+                                                        <Expr2>
+                                                            <HTML>|</HTML>
+                                                        </Expr2>
+                                                        <Then>
+                                                            <HTML>folder.gif</HTML>
+                                                        </Then>
+                                                        <Else>
+                                                            <SetVar Name="FolderIconFromMap">
+                                                                <MapToIcon>
+                                                                    <Column Name="HTML_x0020_File_x0020_Type"/>
+                                                                    <HTML>|</HTML>
+                                                                    <Column Name="File_x0020_Type"/>
+                                                                </MapToIcon>
+                                                            </SetVar>
+                                                            <IfEqual>
+                                                                <Expr1>
+                                                                    <GetVar Name="FolderIconFromMap"/>
+                                                                </Expr1>
+                                                                <Expr2>
+                                                                    <MapToIcon/>
+                                                                </Expr2>
+                                                                <Then>
+                                                                    <HTML>folder.gif</HTML>
+                                                                </Then>
+                                                                <Else>
+                                                                    <GetVar Name="FolderIconFromMap"/>
+                                                                </Else>
+                                                            </IfEqual>
+                                                        </Else>
+                                                    </IfEqual>
+                                                </Then>
+                                                <Else>
+                                                    <MapToIcon>
+                                                        <Column Name="HTML_x0020_File_x0020_Type"/>
+                                                        <HTML>|</HTML>
+                                                        <Column Name="File_x0020_Type"/>
+                                                    </MapToIcon>
+                                                </Else>
+                                            </IfEqual>
+                                        </Then>
+                                        <Else>
+                                            <MapToIcon>
+                                                <Column Name="IconOverlay"/>
+                                            </MapToIcon>
+                                        </Else>
+                                    </IfEqual>
+                                </SetVar>
+                                <HTML><![CDATA[<img border="0" alt="]]></HTML>
+                                <GetVar Name="DocIconAltText"/>
+                                <HTML><![CDATA[" title="]]></HTML>
+                                <GetVar Name="DocIconAltText"/>
+                                <HTML><![CDATA[" src="/_layouts/images/]]></HTML>
+                                <GetVar Name="DocIconFileName"/>
+                                <HTML><![CDATA[" />]]></HTML>
+                            </SetVar>
+                            <SetVar Name="DocIconOverlayImg">
+                                <IfEqual>
+                                    <Expr1>
+                                        <Column Name="IconOverlay"/>
+                                    </Expr1>
+                                    <Expr2/>
+                                    <Then/>
+                                    <Else>
+                                        <HTML><![CDATA[<img class="ms-vb-icon-overlay" alt="*" src="/_layouts/images/]]></HTML>
+                                        <MapToOverlay>
+                                            <Column Name="IconOverlay"/>
+                                        </MapToOverlay>
+                                        <HTML><![CDATA[" />]]></HTML>
+                                    </Else>
+                                </IfEqual>
+                            </SetVar>
+                            <IfEqual>
+                                <Expr1>
+                                    <LookupColumn Name="FSObjType"/>
+                                </Expr1>
+                                <Expr2>1</Expr2>
+                                <Then>
+                                    <FieldSwitch>
+                                        <Expr>
+                                            <GetVar Name="RecursiveView"/>
+                                        </Expr>
+                                        <Case Value="1">
+                                            <GetVar Name="DocIconImg"/>
+                                            <GetVar Name="DocIconOverlayImg"/>
+                                        </Case>
+                                        <Default>
+                                            <SetVar Name="UnencodedFilterLink">
+                                                <SetVar Name="RootFolder">
+                                                    <HTML>/</HTML>
+                                                    <LookupColumn Name="FileRef"/>
+                                                </SetVar>
+                                                <SetVar Name="SkipHost">1</SetVar>
+                                                <SetVar Name="FolderCTID">
+                                                    <FieldSwitch>
+                                                        <Expr>
+                                                            <ListProperty Select="EnableContentTypes"/>
+                                                        </Expr>
+                                                        <Case Value="1">
+                                                            <Column Name="ContentTypeId"/>
+                                                        </Case>
+                                                    </FieldSwitch>
+                                                </SetVar>
+                                                <FilterLink Default="" Paged="FALSE"/>
+                                            </SetVar>
+                                            <FieldSwitch>
+                                                <Expr>
+                                                    <GetVar Name="FileDialog"/>
+                                                </Expr>
+                                                <Case Value="1">
+                                                    <GetVar Name="DocIconImg"/>
+                                                    <GetVar Name="DocIconOverlayImg"/>
+                                                </Case>
+                                                <Default>
+                                                    <HTML><![CDATA[<a href="]]></HTML>
+                                                    <GetVar Name="UnencodedFilterLink" HTMLEncode="TRUE"/>
+                                                    <HTML><![CDATA[" onclick="javascript:EnterFolder(']]></HTML>
+                                                    <ScriptQuote NotAddingQuote="TRUE">
+                                                        <GetVar Name="UnencodedFilterLink"/>
+                                                    </ScriptQuote>
+                                                    <HTML><![CDATA[');javascript:return false;">]]></HTML>
+                                                    <GetVar Name="DocIconImg"/>
+                                                    <GetVar Name="DocIconOverlayImg"/>
+                                                    <HTML><![CDATA[</a>]]></HTML>
+                                                </Default>
+                                            </FieldSwitch>
+                                        </Default>
+                                    </FieldSwitch>
+                                </Then>
+                                <Else>
+                                    <HTML><![CDATA[<a onfocus="OnLink(this)" href="]]></HTML>
+                                    <URL/>
+                                    <HTML><![CDATA[" onclick="GoToLink(this);return false;" target="_self">]]></HTML>
+                                    <GetVar Name="DocIconImg"/>
+                                    <GetVar Name="DocIconOverlayImg"/>
+                                    <HTML><![CDATA[</a>]]></HTML>
+                                </Else>
+                            </IfEqual>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{105f76ce-724a-4bba-aece-f81f2fce58f5}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="ServerUrl" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Server_Relative_URL;" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ServerUrl" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="FileRef"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <HTML>/</HTML>
+                            <LookupColumn Name="FileRef"/>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{7177cfc7-f399-4d4d-905d-37dd51bc90bf}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="EncodedAbsUrl" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Encoded_Absolute_URL;" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="EncodedAbsUrl" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="FileRef"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <HttpHost URLEncodeAsURL="TRUE"/>
+                            <HTML>/</HTML>
+                            <LookupColumn Name="FileRef" IncludeVersions="TRUE" URLEncodeAsURL="TRUE"/>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{7615464b-559e-4302-b8e2-8f440b913101}" ReadOnly="TRUE" Hidden="TRUE" Type="Computed" Name="BaseName" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,File_Name;" Filterable="FALSE" RenderXMLUsingPattern="TRUE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="BaseName" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="FileLeafRef"/>
+                            <FieldRef Name="FSObjType"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <IfEqual>
+                                <Expr1>
+                                    <LookupColumn Name="FSObjType"/>
+                                </Expr1>
+                                <Expr2>1</Expr2>
+                                <Then>
+                                    <LookupColumn Name="FileLeafRef" HTMLEncode="TRUE"/>
+                                </Then>
+                                <Else>
+                                    <UrlBaseName HTMLEncode="TRUE">
+                                        <LookupColumn Name="FileLeafRef"/>
+                                    </UrlBaseName>
+                                </Else>
+                            </IfEqual>
+                        </DisplayPattern>
+                    </Field>
+                    <Field ID="{687c7f94-686a-42d3-9b67-2782eac4b4f8}" Name="MetaInfo" DisplaceOnUpgrade="TRUE" Hidden="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,Property_Bag;" List="Docs" FieldRef="ID" ShowField="MetaInfo" JoinColName="DoclibRowId" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="MetaInfo" FromBaseType="TRUE"/>
+                    <Field ID="{43bdd51b-3c5b-4e78-90a8-fb2087f71e70}" ColName="tp_Level" RowOrdinal="0" ReadOnly="TRUE" Type="Integer" Name="_Level" DisplaceOnUpgrade="TRUE" DisplayName="$Resources:core,Level;" Hidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_Level" FromBaseType="TRUE"/>
+                    <Field ID="{c101c3e7-122d-4d4d-bc34-58e94a38c816}" ColName="tp_IsCurrentVersion" DisplaceOnUpgrade="TRUE" RowOrdinal="0" ReadOnly="TRUE" Type="Boolean" Name="_IsCurrentVersion" DisplayName="$Resources:core,Is_Current_Version;" Hidden="TRUE" Required="FALSE" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="_IsCurrentVersion" FromBaseType="TRUE"/>
+                    <Field ID="{b824e17e-a1b3-426e-aecf-f0184d900485}" Name="ItemChildCount" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,Item_Child_Count;" List="Docs" FieldRef="ID" ShowField="ItemChildCount" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="ItemChildCount" FromBaseType="TRUE"/>
+                    <Field ID="{960ff01f-2b6d-4f1b-9c3f-e19ad8927341}" Name="FolderChildCount" DisplaceOnUpgrade="TRUE" ReadOnly="TRUE" ShowInFileDlg="FALSE" Type="Lookup" DisplayName="$Resources:core,Folder_Child_Count;" List="Docs" FieldRef="ID" ShowField="FolderChildCount" JoinColName="DoclibRowId" JoinRowOrdinal="0" JoinType="INNER" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="FolderChildCount" FromBaseType="TRUE"/>
+                    <Field ID="{35363960-d998-4aad-b7e8-058dfe2c669e}" ReadOnly="TRUE" Type="Computed" Name="Completed" DisplaceOnUpgrade="TRUE" Sortable="TRUE" Filterable="FALSE" DisplayName="$Resources:core,Completed;" SourceID="http://schemas.microsoft.com/sharepoint/v3" StaticName="Completed" FromBaseType="TRUE">
+                        <FieldRefs>
+                            <FieldRef Name="_Level"/>
+                        </FieldRefs>
+                        <DisplayPattern>
+                            <Switch>
+                                <Expr>
+                                    <Column Name="_Level"/>
+                                </Expr>
+                                <Case Value="255">$Resources:core,fld_no;</Case>
+                                <Default>$Resources:core,fld_yes;</Default>
+                            </Switch>
+                        </DisplayPattern>
+                    </Field>
+                </Fields>
+                <ContentTypes/>
+                <Forms>
+                    <Form Type="DisplayForm" Name="{15E45150-5ED1-417D-BC2C-B038D713F713}" Url="Lists/SeminarSurvey/DispForm.aspx" Default="TRUE" FormID="0" Template="ListForm"/>
+                    <Form Type="EditForm" Name="{23A8B523-FBD2-4338-8AE6-8D9E1DCB6756}" Url="Lists/SeminarSurvey/EditForm.aspx" Default="TRUE" FormID="0" Template="SurveyForm"/>
+                    <Form Type="NewForm" Name="{4957471A-C74A-4E97-847D-D660D77E6C4D}" Url="Lists/SeminarSurvey/NewForm.aspx" Default="TRUE" FormID="0" Template="SurveyForm"/>
+                </Forms>
+                <Security>
+                    <ReadSecurity>2</ReadSecurity>
+                    <WriteSecurity>2</WriteSecurity>
+                    <SchemaSecurity>0</SchemaSecurity>
+                </Security>
+            </MetaData>
+            <Data>
+                <s:AttributeType name='ContentTypeId' rs:name='コンテンツ タイプの ID' rs:number='1'>
+                    <s:datatype dt:type='int' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Title' rs:name='タイトル' rs:number='2'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Author' rs:name='作成者' rs:number='3'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Editor' rs:name='更新者' rs:number='4'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='File_x0020_Type' rs:name='ファイルの種類' rs:number='5'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Q1_xff0e__x0020__x4eca__x56de__x' rs:name='Q1． 今回のセミナー＆イベントは参考になりましたか？' rs:number='6'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Q2_xff0e__x0020__x4eca__x56de__x' rs:name='Q2． 今回のセミナー＆イベントの内容はわかりやすかったですか？' rs:number='7'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Q3_xff0e__x0020__x4eca__x56de__x' rs:name='Q3． 今回のセミナー＆イベントは期待通りでしたか？' rs:number='8'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Q4_xff0e__x0020__x30bb__x30df__x' rs:name='Q4． セミナー＆イベントに参加した感想をお聞かせください。' rs:number='9'>
+                    <s:datatype dt:type='string' dt:maxLength='1073741823' />
+                </s:AttributeType>
+                <s:AttributeType name='ID' rs:name='ID' rs:number='10'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='ContentType' rs:name='コンテンツ タイプ' rs:number='11'>
+                    <s:datatype dt:type='string' dt:maxLength='1073741823' />
+                </s:AttributeType>
+                <s:AttributeType name='Modified' rs:name='更新日時' rs:number='12'>
+                    <s:datatype dt:type='datetime' dt:maxLength='8' />
+                </s:AttributeType>
+                <s:AttributeType name='Created' rs:name='作成日時' rs:number='13'>
+                    <s:datatype dt:type='datetime' dt:maxLength='8' />
+                </s:AttributeType>
+                <s:AttributeType name='_HasCopyDestinations' rs:name='コピー先の有無' rs:number='14'>
+                    <s:datatype dt:type='boolean' dt:maxLength='1' />
+                </s:AttributeType>
+                <s:AttributeType name='_CopySource' rs:name='コピー元' rs:number='15'>
+                    <s:datatype dt:type='string' dt:maxLength='1073741823' />
+                </s:AttributeType>
+                <s:AttributeType name='owshiddenversion' rs:name='owshiddenversion' rs:number='16'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='_UIVersion' rs:name='UI バージョン' rs:number='17'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='_UIVersionString' rs:name='バージョン' rs:number='18'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='_ModerationStatus' rs:name='承認の状況' rs:number='19'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='DisplayResponseNoMenu' rs:name='回答の表示' rs:number='20'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='DisplayResponse' rs:name='回答の表示' rs:number='21'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='DisplayResponse2' rs:name='回答の表示' rs:number='22'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='InstanceID' rs:name='インスタンス ID' rs:number='23'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='Order' rs:name='順序' rs:number='24'>
+                    <s:datatype dt:type='float' dt:maxLength='8' />
+                </s:AttributeType>
+                <s:AttributeType name='FileRef' rs:name='URL パス' rs:number='25'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='FileDirRef' rs:name='パス' rs:number='26'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='Last_x0020_Modified' rs:name='更新日時' rs:number='27'>
+                    <s:datatype dt:type='datetime' dt:lookup='true' dt:maxLength='8' />
+                </s:AttributeType>
+                <s:AttributeType name='Created_x0020_Date' rs:name='作成日時' rs:number='28'>
+                    <s:datatype dt:type='datetime' dt:lookup='true' dt:maxLength='8' />
+                </s:AttributeType>
+                <s:AttributeType name='FSObjType' rs:name='アイテムの種類' rs:number='29'>
+                    <s:datatype dt:type='ui1' dt:lookup='true' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='SortBehavior' rs:name='並べ替えの種類' rs:number='30'>
+                    <s:datatype dt:type='ui1' dt:lookup='true' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='PermMask' rs:name='有効な権限マスク' rs:number='31'>
+                    <s:datatype dt:type='string' dt:maxLength='1073741823' />
+                </s:AttributeType>
+                <s:AttributeType name='FileLeafRef' rs:name='名前' rs:number='32'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='UniqueId' rs:name='固有 ID' rs:number='33'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='38' />
+                </s:AttributeType>
+                <s:AttributeType name='SyncClientId' rs:name='クライアント ID' rs:number='34'>
+                    <s:datatype dt:type='int' dt:lookup='true' dt:maxLength='2147483646' />
+                </s:AttributeType>
+                <s:AttributeType name='ProgId' rs:name='ProgId' rs:number='35'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='ScopeId' rs:name='ScopeId' rs:number='36'>
+                    <s:datatype dt:type='string' dt:lookup='true' dt:maxLength='38' />
+                </s:AttributeType>
+                <s:AttributeType name='HTML_x0020_File_x0020_Type' rs:name='HTML ファイルの種類' rs:number='37'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='_EditMenuTableStart' rs:name='メニュー テーブルの編集の開始' rs:number='38'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='_EditMenuTableStart2' rs:name='メニュー テーブルの編集の開始' rs:number='39'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='_EditMenuTableEnd' rs:name='メニュー テーブルの編集の終了' rs:number='40'>
+                    <s:datatype dt:type='i4' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='LinkFilenameNoMenu' rs:name='名前' rs:number='41'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='LinkFilename' rs:name='名前' rs:number='42'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='LinkFilename2' rs:name='名前' rs:number='43'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='DocIcon' rs:name='種類' rs:number='44'>
+                    <s:datatype dt:type='string' dt:maxLength='512' />
+                </s:AttributeType>
+                <s:AttributeType name='ServerUrl' rs:name='サーバーの相対 URL' rs:number='45'>
+                    <s:datatype dt:type='string' dt:maxLength='1073741823' />
+                </s:AttributeType>
+                <s:AttributeType name='EncodedAbsUrl' rs:name='エンコードされた絶対 URL' rs:number='46'>
+                    <s:datatype dt:type='string' dt:maxLength='1073741823' />
+                </s:AttributeType>
+                <s:AttributeType name='BaseName' rs:name='ファイル名' rs:number='47'>
+                    <s:datatype dt:type='string' dt:maxLength='1073741823' />
+                </s:AttributeType>
+                <s:AttributeType name='MetaInfo' rs:name='プロパティ バッグ' rs:number='48'>
+                    <s:datatype dt:type='int' dt:lookup='true' dt:maxLength='2147483646' />
+                </s:AttributeType>
+                <s:AttributeType name='_Level' rs:name='レベル' rs:number='49'>
+                    <s:datatype dt:type='ui1' dt:maxLength='1' />
+                </s:AttributeType>
+                <s:AttributeType name='_IsCurrentVersion' rs:name='現在のバージョン' rs:number='50'>
+                    <s:datatype dt:type='boolean' dt:maxLength='1' />
+                </s:AttributeType>
+                <s:AttributeType name='ItemChildCount' rs:name='子アイテムの数' rs:number='51'>
+                    <s:datatype dt:type='i4' dt:lookup='true' dt:maxLength='4' />
+                </s:AttributeType>
+                <s:AttributeType name='FolderChildCount' rs:name='フォルダーの子の数' rs:number='52'>
+                    <s:datatype dt:type='i4' dt:lookup='true' dt:maxLength='510' />
+                </s:AttributeType>
+                <s:AttributeType name='Completed' rs:name='完了' rs:number='53'>
+                    <s:datatype dt:type='ui1' dt:maxLength='1' />
+                </s:AttributeType>
+                <Rows>
+                </Rows>
+            </Data>
+        </List>
+    </UserLists>
+    <WebParts>
+        <WebPart ID="{557D8DBD-D3B3-4C96-B7A4-E376E09B9469}" List="{E90F7B07-D20A-42DF-9C87-C8D0F830AEE4}" Type="0" Flags="161" DisplayName="概要" Version="1" Url="Lists/SeminarSurvey/overview.aspx" WebPartOrder="1" WebPartZoneID="Main" IsIncluded="1" FrameState="0" WPTypeId="{874F5460-71F9-FECC-E894-E7E858D9713E}"/>
+        <WebPart ID="{961E1AF8-A720-435A-B5D4-721B4E444AA9}" List="{E90F7B07-D20A-42DF-9C87-C8D0F830AEE4}" Type="1" Flags="1" DisplayName="すべての回答" Version="1" Url="Lists/SeminarSurvey/AllItems.aspx" WebPartOrder="1" WebPartZoneID="Main" IsIncluded="1" FrameState="0" WPTypeId="{874F5460-71F9-FECC-E894-E7E858D9713E}"/>
+        <WebPart ID="{791A4987-BA66-4939-B1A2-0EAA0C8B3BC5}" List="{E90F7B07-D20A-42DF-9C87-C8D0F830AEE4}" Type="1" Flags="131237" DisplayName="概要 (グラフ)" Version="1" Url="Lists/SeminarSurvey/summary.aspx" WebPartOrder="1" WebPartZoneID="Main" IsIncluded="1" FrameState="0" WPTypeId="{BAF5274E-A800-8DC3-96D0-0003D9405663}"/>
+        <WebPart ID="{15E45150-5ED1-417D-BC2C-B038D713F713}" List="{E90F7B07-D20A-42DF-9C87-C8D0F830AEE4}" Type="4" Flags="1048576" DisplayName="" Version="1" Url="Lists/SeminarSurvey/DispForm.aspx" WebPartOrder="1" WebPartZoneID="Main" IsIncluded="1" FrameState="0" WPTypeId="{9F56656F-6AA3-0D55-A812-711BF65864EA}"/>
+        <WebPart ID="{23A8B523-FBD2-4338-8AE6-8D9E1DCB6756}" List="{E90F7B07-D20A-42DF-9C87-C8D0F830AEE4}" Type="6" Flags="1048576" DisplayName="" Version="1" Url="Lists/SeminarSurvey/EditForm.aspx" WebPartOrder="1" WebPartZoneID="Main" IsIncluded="1" FrameState="0" WPTypeId="{9F56656F-6AA3-0D55-A812-711BF65864EA}"/>
+        <WebPart ID="{4957471A-C74A-4E97-847D-D660D77E6C4D}" List="{E90F7B07-D20A-42DF-9C87-C8D0F830AEE4}" Type="8" Flags="1048576" DisplayName="" Version="1" Url="Lists/SeminarSurvey/NewForm.aspx" WebPartOrder="1" WebPartZoneID="Main" IsIncluded="1" FrameState="0" WPTypeId="{9F56656F-6AA3-0D55-A812-711BF65864EA}"/>
+    </WebParts>
+</ListTemplate>
