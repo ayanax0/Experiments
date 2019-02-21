@@ -2,8 +2,7 @@
 # Install-Module -Name MSOnline
 
 # ユーザー認証情報取得
-#$userCredential = Get-Credential -Credential "akiray@interestec.onmicrosoft.com"
-$userCredential = Get-Credential -Credential "akiyama@wintech.onmicrosoft.com"
+$userCredential = Get-Credential -Credential "akiray@interestec.onmicrosoft.com"
 
 # Office365に接続
 Connect-MsolService -Credential $userCredential

@@ -4,7 +4,6 @@
 
 # アカウント設定
 #$connectionUser = "akiray@interestec.onmicrosoft.com" 
-$connectionUser = "akiyama@wintech.onmicrosoft.com" 
 $connectionPassword = Read-Host -Prompt "Enter Password." -AsSecureString
 
 # 接続Credential生成
@@ -14,9 +13,8 @@ $credential = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials
 $credential = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($connectionUser, $connectionPassword)
 
 # 接続先サイトのURL
-#$siteUrl = "https://interestec.sharepoint.com/"
+$siteUrl = "https://interestec.sharepoint.com/"
 #$siteUrl = "https://interestec.sharepoint.com/sites/Develop1/"
-$siteUrl = "https://wintech.sharepoint.com/"
 
 # サイトURLからContext生成
 $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
