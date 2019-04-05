@@ -21,7 +21,7 @@ $listItemCreationInformation.LeafName = "foo"
 $context = New-Object Microsoft.SharePoint.Client.ClientContext($siteUrl)
 $context.Credentials = $credential
 
-# リスト取得a
+# リスト取得
 $list = $context.Web.Lists.GetByTitle("customlist1")
 
 # フォルダー作成
