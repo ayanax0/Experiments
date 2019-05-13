@@ -1,10 +1,13 @@
-$userCredential = Get-Credential -Credential "akiray@interestec.onmicrosoft.com"
+# ƒGƒ‰[”­¶‚Íˆ—‚ğ’â~
+$ErrorActionPreference = "Stop"
+
+$userCredential = Get-Credential -Credential "sysadmin@interestec.onmicrosoft.com"
 
 $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri "https://outlook.office365.com/powershell-liveid/" -Credential $userCredential -Authentication Basic -AllowRedirection
 
 Import-PSSession $Session -DisableNameChecking
 
-$auditLogs = (Search-UnifiedAuditLog -StartDate "2018/7/1" -EndDate "2018/9/19"-RecordType "SharePoint" -Operations "PageViewed")
+$auditLogs = (Search-UnifiedAuditLog -StartDate "2019/4/10" -EndDate "2019/5/10"-RecordType "SharePoint" -Operations "PageViewed")
 
 "CreationTime,ObjectId,UserId,Site,WebId"
 foreach ($auditLog in $auditLogs)
